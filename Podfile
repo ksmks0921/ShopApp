@@ -6,7 +6,7 @@ target 'ShopApp' do
   use_frameworks!
 
   # Pods for ShopApp
-
+  pod 'Parchment'
 
   
   target 'ShopAppTests' do

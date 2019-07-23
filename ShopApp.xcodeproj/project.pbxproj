@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,11 @@
 		7DB522A022E0BA4C00FAD986 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5229F22E0BA4C00FAD986 /* SecondVC.swift */; };
 		7DB522A222E0CC6200FAD986 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB522A122E0CC6200FAD986 /* Section.swift */; };
 		7DB522A422E0D2C200FAD986 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB522A322E0D2C200FAD986 /* ExpandableHeaderView.swift */; };
+		7DD2D82B22E6B7B3000571C5 /* HeaderImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D82922E6B7B3000571C5 /* HeaderImageTableViewCell.swift */; };
+		7DD2D82C22E6B7B3000571C5 /* HeaderImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD2D82A22E6B7B3000571C5 /* HeaderImageTableViewCell.xib */; };
+		7DD2D83222E6E335000571C5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D83122E6E335000571C5 /* DetailVC.swift */; };
+		7DD2D83422E6E3F0000571C5 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D83322E6E3F0000571C5 /* ProductVC.swift */; };
+		7DD2D83622E6E478000571C5 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D83522E6E478000571C5 /* UIView+constraints.swift */; };
 		7DFC5C8D22D5950300804E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC5C8C22D5950300804E6B /* ViewController.swift */; };
 		7DFC5C8F22D5968400804E6B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC5C8E22D5968400804E6B /* PageViewController.swift */; };
 /* End PBXBuildFile section */
@@ -64,6 +69,11 @@
 		7DB5229F22E0BA4C00FAD986 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondVC.swift; path = fonts/SecondVC.swift; sourceTree = "<group>"; };
 		7DB522A122E0CC6200FAD986 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		7DB522A322E0D2C200FAD986 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		7DD2D82922E6B7B3000571C5 /* HeaderImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImageTableViewCell.swift; sourceTree = "<group>"; };
+		7DD2D82A22E6B7B3000571C5 /* HeaderImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderImageTableViewCell.xib; sourceTree = "<group>"; };
+		7DD2D83122E6E335000571C5 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		7DD2D83322E6E3F0000571C5 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		7DD2D83522E6E478000571C5 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
 		7DFC5C8C22D5950300804E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DFC5C8E22D5968400804E6B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		8F1FA4D9426639B90E73B379 /* Pods-ShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.debug.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +161,7 @@
 		7D8AD7B522D3ABB4008E97CD /* ShopApp */ = {
 			isa = PBXGroup;
 			children = (
+				7DD2D82422E6AB30000571C5 /* Detail */,
 				7DB5229C22E0254700FAD986 /* fonts */,
 				7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */,
 				7DFC5C8C22D5950300804E6B /* ViewController.swift */,
@@ -160,6 +171,9 @@
 				7DB522A322E0D2C200FAD986 /* ExpandableHeaderView.swift */,
 				7DB522A122E0CC6200FAD986 /* Section.swift */,
 				7D997C8422E0E6F300BE34E9 /* thirdVC.swift */,
+				7DD2D83122E6E335000571C5 /* DetailVC.swift */,
+				7DD2D83322E6E3F0000571C5 /* ProductVC.swift */,
+				7DD2D83522E6E478000571C5 /* UIView+constraints.swift */,
 				7D8AD7BA22D3ABB4008E97CD /* Main.storyboard */,
 				7D8AD7BD22D3ABB6008E97CD /* Assets.xcassets */,
 				7D8AD7BF22D3ABB6008E97CD /* LaunchScreen.storyboard */,
@@ -194,6 +208,15 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
+		7DD2D82422E6AB30000571C5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7DD2D82922E6B7B3000571C5 /* HeaderImageTableViewCell.swift */,
+				7DD2D82A22E6B7B3000571C5 /* HeaderImageTableViewCell.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,6 +228,7 @@
 				7D8AD7AF22D3ABB4008E97CD /* Sources */,
 				7D8AD7B022D3ABB4008E97CD /* Frameworks */,
 				7D8AD7B122D3ABB4008E97CD /* Resources */,
+				3ED2692F1F9DBFBB32FB08EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +326,7 @@
 			files = (
 				7D8AD7C122D3ABB6008E97CD /* LaunchScreen.storyboard in Resources */,
 				7DB5229E22E0254700FAD986 /* araalmbon.otf in Resources */,
+				7DD2D82C22E6B7B3000571C5 /* HeaderImageTableViewCell.xib in Resources */,
 				7D8AD7BE22D3ABB6008E97CD /* Assets.xcassets in Resources */,
 				7D8AD7BC22D3ABB4008E97CD /* Main.storyboard in Resources */,
 			);
@@ -344,6 +369,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED2692F1F9DBFBB32FB08EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopApp/Pods-ShopApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopApp/Pods-ShopApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopApp/Pods-ShopApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A3D6733661E4606EBB86E4E /* [CP] Check Pods Manifest.lock */ = {
@@ -397,10 +439,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD2D83422E6E3F0000571C5 /* ProductVC.swift in Sources */,
+				7DD2D82B22E6B7B3000571C5 /* HeaderImageTableViewCell.swift in Sources */,
 				7DFC5C8F22D5968400804E6B /* PageViewController.swift in Sources */,
 				7DB522A422E0D2C200FAD986 /* ExpandableHeaderView.swift in Sources */,
 				7DB522A222E0CC6200FAD986 /* Section.swift in Sources */,
 				7DB522A022E0BA4C00FAD986 /* SecondVC.swift in Sources */,
+				7DD2D83222E6E335000571C5 /* DetailVC.swift in Sources */,
+				7DD2D83622E6E478000571C5 /* UIView+constraints.swift in Sources */,
 				7D997C8522E0E6F300BE34E9 /* thirdVC.swift in Sources */,
 				7DB5229822DFFE4C00FAD986 /* FirstVC.swift in Sources */,
 				7D8AD7B722D3ABB4008E97CD /* AppDelegate.swift in Sources */,

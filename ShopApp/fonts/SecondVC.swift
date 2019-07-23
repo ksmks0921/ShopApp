@@ -35,6 +35,8 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Ex
         searchSection.layer.borderColor = myColor.cgColor
         
         // Do any additional setup after loading the view.
+        
+//        tableView.register(UINib(nibName: "HeaderImageTableViewCell", bundle: nil), forCellReuseIdentifier: "labelcell")
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return sections.count
@@ -65,6 +67,7 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Ex
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "labelCell")!
         cell.textLabel?.text = sections[indexPath.section].movies[indexPath.row]
+//        cell.ivLogo.image = UIImage(named: "ic_sort.png")
         return cell
     }
 
@@ -79,7 +82,16 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Ex
         tableView.endUpdates()
         
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+      
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "detailVC") as! DetailVC
+//        controller.customInit(imageName: sections[indexPath.section].movies[indexPath.row])
+        tableView.deselectRow(at: indexPath, animated: true)
+        //            controller.webVIewUrl = url
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
     /*
+     
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
