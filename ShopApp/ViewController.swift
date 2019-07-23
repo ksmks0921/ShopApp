@@ -15,10 +15,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        logo.font = UIFont(name: "araalmbon", size:50.0)
-        logo.font = UIFont.systemFont(ofSize: 35)
+        
+        let customFont = UIFont(name: "AraAlmBon-Regular", size: 35)
+        logo.font = customFont
         logo.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
+        
+//        for family in UIFont.familyNames.sorted() {
+//            let names = UIFont.fontNames(forFamilyName: family)
+//            print("Family: \(family) Font names: \(names)")
+//        }
     }
     
     override func didReceiveMemoryWarning() {

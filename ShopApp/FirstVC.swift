@@ -41,14 +41,18 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
 //                                                     bottom: 50.0,
 //                                                     right: 20.0)
 
-        topView.layer.shadowOffset = CGSize(width: 0, height: 2)
-//        topView.layer.shadowRadius = 5
+        topView.layer.shadowOffset =  CGSize(width: 0.0, height: 2.0)
         topView.layer.shadowOpacity = 0.6
-         topView.layer.masksToBounds = false
-        
+        topView.layer.shadowRadius = 0.0
+        topView.layer.masksToBounds = false
+        topView.layer.cornerRadius = 0
         
         searchSection.layer.cornerRadius = 8
+        
+        
         leftImage.layer.cornerRadius = 6
+        
+        
         
         // Do any additional setup after loading the view.
     }

@@ -13,6 +13,9 @@ class DetailVC: UIViewController {
    
     @IBOutlet weak var mainVIew: UIView!
     
+    
+ 
+    
     fileprivate let cities = [
         "Oslo",
         "Stockholm",
@@ -46,6 +49,8 @@ class DetailVC: UIViewController {
     }
     
 
+    
+    
     /*
     // MARK: - Navigation
 
@@ -57,6 +62,7 @@ class DetailVC: UIViewController {
     */
 
 }
+
 extension DetailVC: PagingViewControllerDataSource {
     
     func pagingViewController<T>(_ pagingViewController: PagingViewController<T>, pagingItemForIndex index: Int) -> T {
@@ -64,7 +70,12 @@ extension DetailVC: PagingViewControllerDataSource {
     }
     
     func pagingViewController<T>(_ pagingViewController: PagingViewController<T>, viewControllerForIndex index: Int) -> UIViewController {
-        return ProductVC(title: cities[index])
+        
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "productvc") as! ProductVC
+        
+        return controller
+//        return
+        
     }
     
     func numberOfViewControllers<T>(in: PagingViewController<T>) -> Int {

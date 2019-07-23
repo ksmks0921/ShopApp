@@ -7,27 +7,40 @@
 
 import UIKit
 
-class ProductVC: UIViewController {
+class ProductVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
-   
-    init(title: String) {
-        super.init(nibName: nil, bundle: nil)
-        self.title = title
-        
-        let label = UILabel(frame: .zero)
-        label.font = UIFont.systemFont(ofSize: 50, weight: UIFont.Weight.thin)
-        label.textColor = UIColor(red: 95/255, green: 102/255, blue: 108/255, alpha: 1)
-        label.text = title
-        label.sizeToFit()
-        
-        view.addSubview(label)
-        view.constrainCentered(label)
-        view.backgroundColor = .white
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+ 
+    
+    let items = ["1","2","3","4"]
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    
+    // the collectionView of product items
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return items.count
     }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "itemCell", for: indexPath) as! ProductItemCell
+        
+        cell.productPrice.text = items[indexPath.item]
+        
+        return cell
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        print(indexPath.item)
+        
+    }
 
 }

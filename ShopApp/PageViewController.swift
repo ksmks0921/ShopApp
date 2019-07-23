@@ -83,14 +83,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     
     
     
-    private func setupNavigationBarItem(){
-//        let titleImageView = UIImageView(image:)
-//        let logo = UIImageView(image: UIImage(named: "iTunesArtwork"))
-//
-//        logo.frame = CGRect(x:0, y: 0, width: 34, height: 34)
-//        navigationItem.titleView = logo
-        
-    }
+
     //This func is used to load the view controllers as you scroll through the different views
     
     /*

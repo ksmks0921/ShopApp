@@ -27,6 +27,8 @@
 		7DD2D83222E6E335000571C5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D83122E6E335000571C5 /* DetailVC.swift */; };
 		7DD2D83422E6E3F0000571C5 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D83322E6E3F0000571C5 /* ProductVC.swift */; };
 		7DD2D83622E6E478000571C5 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D83522E6E478000571C5 /* UIView+constraints.swift */; };
+		7DD2D84922E74C37000571C5 /* ProductItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D84822E74C37000571C5 /* ProductItemCell.swift */; };
+		7DD2D84B22E78E27000571C5 /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D84A22E78E27000571C5 /* signupVC.swift */; };
 		7DFC5C8D22D5950300804E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC5C8C22D5950300804E6B /* ViewController.swift */; };
 		7DFC5C8F22D5968400804E6B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC5C8E22D5968400804E6B /* PageViewController.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,8 @@
 		7DD2D83122E6E335000571C5 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		7DD2D83322E6E3F0000571C5 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		7DD2D83522E6E478000571C5 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		7DD2D84822E74C37000571C5 /* ProductItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemCell.swift; sourceTree = "<group>"; };
+		7DD2D84A22E78E27000571C5 /* signupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupVC.swift; sourceTree = "<group>"; };
 		7DFC5C8C22D5950300804E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DFC5C8E22D5968400804E6B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		8F1FA4D9426639B90E73B379 /* Pods-ShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.debug.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 				7DD2D83122E6E335000571C5 /* DetailVC.swift */,
 				7DD2D83322E6E3F0000571C5 /* ProductVC.swift */,
 				7DD2D83522E6E478000571C5 /* UIView+constraints.swift */,
+				7DD2D84822E74C37000571C5 /* ProductItemCell.swift */,
+				7DD2D84A22E78E27000571C5 /* signupVC.swift */,
 				7D8AD7BA22D3ABB4008E97CD /* Main.storyboard */,
 				7D8AD7BD22D3ABB6008E97CD /* Assets.xcassets */,
 				7D8AD7BF22D3ABB6008E97CD /* LaunchScreen.storyboard */,
@@ -441,10 +447,12 @@
 			files = (
 				7DD2D83422E6E3F0000571C5 /* ProductVC.swift in Sources */,
 				7DD2D82B22E6B7B3000571C5 /* HeaderImageTableViewCell.swift in Sources */,
+				7DD2D84B22E78E27000571C5 /* signupVC.swift in Sources */,
 				7DFC5C8F22D5968400804E6B /* PageViewController.swift in Sources */,
 				7DB522A422E0D2C200FAD986 /* ExpandableHeaderView.swift in Sources */,
 				7DB522A222E0CC6200FAD986 /* Section.swift in Sources */,
 				7DB522A022E0BA4C00FAD986 /* SecondVC.swift in Sources */,
+				7DD2D84922E74C37000571C5 /* ProductItemCell.swift in Sources */,
 				7DD2D83222E6E335000571C5 /* DetailVC.swift in Sources */,
 				7DD2D83622E6E478000571C5 /* UIView+constraints.swift in Sources */,
 				7D997C8522E0E6F300BE34E9 /* thirdVC.swift in Sources */,
@@ -628,7 +636,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VT4D6KWH5A;
+				DEVELOPMENT_TEAM = 2A6YRB9K5R;
 				INFOPLIST_FILE = ShopApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -649,7 +657,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VT4D6KWH5A;
+				DEVELOPMENT_TEAM = 2A6YRB9K5R;
 				INFOPLIST_FILE = ShopApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
