@@ -29,6 +29,8 @@
 		7DD2D83622E6E478000571C5 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D83522E6E478000571C5 /* UIView+constraints.swift */; };
 		7DD2D84922E74C37000571C5 /* ProductItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D84822E74C37000571C5 /* ProductItemCell.swift */; };
 		7DD2D84B22E78E27000571C5 /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D84A22E78E27000571C5 /* signupVC.swift */; };
+		7DD2D85522E7B1DA000571C5 /* firstCellViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2D85322E7B1DA000571C5 /* firstCellViewCell.swift */; };
+		7DD2D85622E7B1DA000571C5 /* firstCellViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD2D85422E7B1DA000571C5 /* firstCellViewCell.xib */; };
 		7DFC5C8D22D5950300804E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC5C8C22D5950300804E6B /* ViewController.swift */; };
 		7DFC5C8F22D5968400804E6B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC5C8E22D5968400804E6B /* PageViewController.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +80,8 @@
 		7DD2D83522E6E478000571C5 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
 		7DD2D84822E74C37000571C5 /* ProductItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemCell.swift; sourceTree = "<group>"; };
 		7DD2D84A22E78E27000571C5 /* signupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupVC.swift; sourceTree = "<group>"; };
+		7DD2D85322E7B1DA000571C5 /* firstCellViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstCellViewCell.swift; sourceTree = "<group>"; };
+		7DD2D85422E7B1DA000571C5 /* firstCellViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = firstCellViewCell.xib; sourceTree = "<group>"; };
 		7DFC5C8C22D5950300804E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DFC5C8E22D5968400804E6B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		8F1FA4D9426639B90E73B379 /* Pods-ShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.debug.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 		7D8AD7B522D3ABB4008E97CD /* ShopApp */ = {
 			isa = PBXGroup;
 			children = (
+				7DD2D85022E7AC4B000571C5 /* first */,
 				7DD2D82422E6AB30000571C5 /* Detail */,
 				7DB5229C22E0254700FAD986 /* fonts */,
 				7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */,
@@ -221,6 +226,15 @@
 				7DD2D82A22E6B7B3000571C5 /* HeaderImageTableViewCell.xib */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		7DD2D85022E7AC4B000571C5 /* first */ = {
+			isa = PBXGroup;
+			children = (
+				7DD2D85322E7B1DA000571C5 /* firstCellViewCell.swift */,
+				7DD2D85422E7B1DA000571C5 /* firstCellViewCell.xib */,
+			);
+			path = first;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +347,7 @@
 				7D8AD7C122D3ABB6008E97CD /* LaunchScreen.storyboard in Resources */,
 				7DB5229E22E0254700FAD986 /* araalmbon.otf in Resources */,
 				7DD2D82C22E6B7B3000571C5 /* HeaderImageTableViewCell.xib in Resources */,
+				7DD2D85622E7B1DA000571C5 /* firstCellViewCell.xib in Resources */,
 				7D8AD7BE22D3ABB6008E97CD /* Assets.xcassets in Resources */,
 				7D8AD7BC22D3ABB4008E97CD /* Main.storyboard in Resources */,
 			);
@@ -445,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD2D85522E7B1DA000571C5 /* firstCellViewCell.swift in Sources */,
 				7DD2D83422E6E3F0000571C5 /* ProductVC.swift in Sources */,
 				7DD2D82B22E6B7B3000571C5 /* HeaderImageTableViewCell.swift in Sources */,
 				7DD2D84B22E78E27000571C5 /* signupVC.swift in Sources */,
@@ -642,7 +658,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = latin.shopApp;
+				PRODUCT_BUNDLE_IDENTIFIER = latin.ks.shopApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -663,7 +679,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = latin.shopApp;
+				PRODUCT_BUNDLE_IDENTIFIER = latin.ks.shopApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -678,6 +694,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A6YRB9K5R;
 				INFOPLIST_FILE = ShopAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -699,6 +716,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A6YRB9K5R;
 				INFOPLIST_FILE = ShopAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

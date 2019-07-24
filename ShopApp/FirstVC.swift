@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     
     
 
@@ -17,7 +17,9 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     @IBOutlet var leftImage: UIImageView!
     
     @IBOutlet var firstCollection: UICollectionView!
- 
+
+
+    
  
     @IBOutlet var secondCollection: UICollectionView!
     
@@ -32,25 +34,40 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
      
-        firstCollection.contentInset = UIEdgeInsets(top: 50.0,
-                                                    left: 20.0,
-                                                    bottom: 50.0,
-                                                    right: 20.0)
-//        secondCollection.contentInset = UIEdgeInsets(top: 50.0,
-//                                                     left: 20.0,
-//                                                     bottom: 50.0,
-//                                                     right: 20.0)
+        firstCollection.contentInset = UIEdgeInsets(top: 10,
+                                                    left: 10.0,
+                                                    bottom: 10.0,
+                                                    right: 10.0)
+        secondCollection.contentInset = UIEdgeInsets(top: 10.0,
+                                                     left: 30.0,
+                                                     bottom: 10.0,
+                                                     right: 30.0)
 
+        
         topView.layer.shadowOffset =  CGSize(width: 0.0, height: 2.0)
-        topView.layer.shadowOpacity = 0.6
-        topView.layer.shadowRadius = 0.0
+        topView.layer.shadowOpacity = 0.5
+        topView.layer.shadowRadius = 2.0
         topView.layer.masksToBounds = false
         topView.layer.cornerRadius = 0
+        
+ 
+        //                first_collection.contentView.layer.borderWidth = 1
+        //        firstCell.contentView.layer.borderColor = [UIColor clearColor].CGColor
+
+        
+        //        firstCell.layer.shadowColor = [UIColor blackColor].CGColor
+ 
+
+    
+
+        
         
         searchSection.layer.cornerRadius = 8
         
         
         leftImage.layer.cornerRadius = 6
+        
+        
         
         
         
@@ -61,8 +78,13 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
         if collectionView == self.firstCollection {
             return 4 // Replace with count of your data for collectionViewA
         }
+        else if collectionView == self.secondCollection {
+            return 4
+        }
+        else {
+            return 4
+        }
         
-        return 4
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
@@ -70,9 +92,12 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
            return CGSize(width: collectionView.frame.size.width, height: 200)
         }
             
-        else {
+        else if collectionView == self.secondCollection {
         
           return CGSize(width: collectionView.frame.size.width, height: 150)
+        }
+        else {
+            return CGSize(width: collectionView.frame.size.width, height: 150)
         }
        
     }
@@ -81,31 +106,78 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
              return 3.0
         }
             
-        else {
+        else if collectionView == self.secondCollection {
             
+             return 3.0
+        }
+        else {
              return 3.0
         }
         
        
     }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        if collectionView == self.firstCollection {
+            return CGSize(width: self.view.frame.size.width - 30, height: 180)
+        }
+       else if collectionView == self.secondCollection{
+            
+             return CGSize(width: self.view.frame.size.width - 60, height: 130)
+        }
+        else {
+             return CGSize(width: self.view.frame.size.width - 60, height: 130)
+        }
+        
+    }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == self.firstCollection {
             let first_collection = collectionView.dequeueReusableCell(withReuseIdentifier: "first_cell", for: indexPath)
+                first_collection.layer.cornerRadius = 2
+//                first_collection.contentView.layer.borderWidth = 1
+                //        firstCell.contentView.layer.borderColor = [UIColor clearColor].CGColor
+                first_collection.layer.masksToBounds = false
             
+                //        firstCell.layer.shadowColor = [UIColor blackColor].CGColor
+                first_collection.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+                first_collection.layer.shadowRadius = 2.0
+                first_collection.layer.shadowOpacity = 0.5
+            
+
+            //        firstCell.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:cell.bounds cornerRadius:cell.contentView.layer.cornerRadius].CGPath
             // Set up cell
             return first_collection
         }
             
-        else {
+        else if collectionView == self.secondCollection {
             let second_collection = collectionView.dequeueReusableCell(withReuseIdentifier: "second_cell", for: indexPath)
+            second_collection.layer.cornerRadius = 2
+            //                first_collection.contentView.layer.borderWidth = 1
+            //        firstCell.contentView.layer.borderColor = [UIColor clearColor].CGColor
+            second_collection.layer.masksToBounds = false
             
+            //        firstCell.layer.shadowColor = [UIColor blackColor].CGColor
+            second_collection.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+            second_collection.layer.shadowRadius = 2.0
+            second_collection.layer.shadowOpacity = 0.5
+   
             // ...Set up cell
             
             return second_collection
         }
+        
+        else {
+              let third_collection = collectionView.dequeueReusableCell(withReuseIdentifier: "third_cell", for: indexPath)
+             return third_collection
+        }
       
     }
+//    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+//        <#code#>
+//    }
 
+    
     /*
     // MARK: - Navigation
 
@@ -117,3 +189,4 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     */
 
 }
+
