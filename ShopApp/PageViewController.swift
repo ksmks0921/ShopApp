@@ -31,6 +31,10 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
                                animated: false,
                                completion: nil)
         }
+        
+   
+        
+        
         // Do any additional setup after loading the view.
     }
     func newVc(viewController: String) -> UIViewController {

@@ -12,9 +12,13 @@ class DetailVC: UIViewController {
     
    
     @IBOutlet weak var mainVIew: UIView!
+    @IBOutlet weak var search: UIView!
+    @IBOutlet weak var searchbar: UIView!
+
     
     
- 
+    @IBOutlet weak var backButton: UIButton!
+    
     
     fileprivate let cities = [
         "Oslo",
@@ -33,6 +37,13 @@ class DetailVC: UIViewController {
         "Sydney",
         "Melbourne"
     ]
+    
+    
+    @IBAction func goBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let pagingViewController = PagingViewController<PagingIndexItem>()
@@ -46,8 +57,28 @@ class DetailVC: UIViewController {
         mainVIew.constrainToEdges(pagingViewController.view)
         pagingViewController.didMove(toParent: self)
         // Do any additional setup after loading the view.
+        
+        
+        let myColor = UIColor.black
+        search.layer.cornerRadius = 8
+        search.layer.borderWidth = 1
+        search.layer.borderColor = myColor.cgColor
+        
+        
+        searchbar.layer.shadowOffset =  CGSize(width: 0.0, height: 2.0)
+        searchbar.layer.shadowOpacity = 0.5
+        searchbar.layer.shadowRadius = 0.3
+        searchbar.layer.masksToBounds = false
+        searchbar.layer.cornerRadius = 0
+        
+        let backImage = UIImage(named: "right-arrow")
+        backButton.setImage(backImage, for: .normal)
+      
+ 
+     
     }
     
+
 
     
     

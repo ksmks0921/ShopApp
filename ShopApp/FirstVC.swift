@@ -15,15 +15,12 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     @IBOutlet var topView: UIView!
     @IBOutlet var searchSection: UIView!
     @IBOutlet var leftImage: UIImageView!
+    @IBOutlet weak var rightButton: UIImageView!
+    
+    
     
     @IBOutlet var firstCollection: UICollectionView!
-
-
-    
- 
     @IBOutlet var secondCollection: UICollectionView!
-    
-  
     @IBOutlet var thirdCollection: UICollectionView!
     
     
@@ -34,7 +31,7 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
      
-        firstCollection.contentInset = UIEdgeInsets(top: 10,
+        firstCollection.contentInset = UIEdgeInsets(top: 10.0,
                                                     left: 10.0,
                                                     bottom: 10.0,
                                                     right: 10.0)
@@ -46,7 +43,7 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
         
         topView.layer.shadowOffset =  CGSize(width: 0.0, height: 2.0)
         topView.layer.shadowOpacity = 0.5
-        topView.layer.shadowRadius = 2.0
+        topView.layer.shadowRadius = 0.3
         topView.layer.masksToBounds = false
         topView.layer.cornerRadius = 0
         
@@ -58,21 +55,29 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
         //        firstCell.layer.shadowColor = [UIColor blackColor].CGColor
  
 
-    
-
-        
-        
         searchSection.layer.cornerRadius = 8
         
         
         leftImage.layer.cornerRadius = 6
         
-        
+        let singleTap = UITapGestureRecognizer(target: self, action: #selector(ImageClicked(gesture:)))
+        rightButton.isUserInteractionEnabled = true
+        rightButton.addGestureRecognizer(singleTap)
         
         
         
         // Do any additional setup after loading the view.
     }
+    
+    @objc func ImageClicked(gesture: UIGestureRecognizer) {
+//        let controller = self.storyboard?.instantiateViewController(withIdentifier: "sbBlue") as! SecondVC
+//
+//
+//        self.navigationController?.pushViewController(controller, animated: true)
+        let indexPath = IndexPath(item: 1, section: 0)
+   
+    }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == self.firstCollection {

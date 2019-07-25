@@ -15,10 +15,11 @@ class ExpandableHeaderView: UITableViewHeaderFooterView {
     var delegate: ExpandableHeaderViewDelegate?
     var section: Int!
     var imageView:UIImageView!
-    
+    var background_image: String!
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(selectHeaderAction)))
+        
         
     }
     
@@ -31,11 +32,17 @@ class ExpandableHeaderView: UITableViewHeaderFooterView {
         delegate?.toggleSection(header: self, section: cell.section)
     }
     
-    func customInit(title: String, section: Int, delegate: ExpandableHeaderViewDelegate){
+    func customInit(title: String, section: Int, delegate: ExpandableHeaderViewDelegate, background_image: String){
         self.textLabel?.text = title
         self.textLabel?.textAlignment = .right
         self.section = section
         self.delegate = delegate
+        self.background_image = background_image
+        
+   
+        
+        self.contentView.backgroundColor = UIColor.darkGray
+
     }
     
     override func layoutSubviews() {
@@ -44,12 +51,13 @@ class ExpandableHeaderView: UITableViewHeaderFooterView {
         self.textLabel?.textColor = UIColor.white
         self.textLabel?.textAlignment  = .right
 //        self.imageView = UIImageView(frame: (x: 0, y: 0, width: self.contentView.frame.width / 2 , height: self.contentView.frame.height))\
+        
         let frame = CGRect(x: 0, y: 0, width: self.contentView.frame.width / 2 , height: self.contentView.frame.height)
         self.imageView = UIImageView(frame: frame)
-        imageView.image = UIImage(named: "ic_sort")
-        imageView.contentMode = .scaleAspectFit
         self.contentView.addSubview(imageView)
-        self.contentView.backgroundColor = UIColor.darkGray
+        self.imageView.image = UIImage(named: "bar_food")
+        self.imageView.contentMode = .scaleAspectFit
+        
         
   
         

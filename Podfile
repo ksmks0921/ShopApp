@@ -7,7 +7,7 @@ target 'ShopApp' do
 
   # Pods for ShopApp
   pod 'Parchment'
-
+  pod 'DLRadioButton', '~> 1.4'
   
   target 'ShopAppTests' do
     inherit! :search_paths

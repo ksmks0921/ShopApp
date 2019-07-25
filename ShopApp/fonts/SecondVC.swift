@@ -11,9 +11,9 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Ex
     
     
     var sections = [
-        Section(genre: "Animation", movies: ["The Lion King" , "The Incredibles"], expanded: false),
-        Section(genre: "Animation", movies: ["The Lion King" , "The Incredibles"], expanded: false),
-        Section(genre: "Animation", movies: ["The Lion King" , "The Incredibles"], expanded: false)
+        Section(genre: "Animation", movies: ["The Lion King" , "The Incredibles"], expanded: false, background_image: "bar_food"),
+        Section(genre: "Animation", movies: ["The Lion King" , "The Incredibles"], expanded: false, background_image: "bar_phone"),
+        Section(genre: "Animation", movies: ["The Lion King" , "The Incredibles"], expanded: false, background_image: "ph_clothes")
     ]
     @IBOutlet var topSection: UIView!
     @IBOutlet var searchSection: UIView!
@@ -24,12 +24,13 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Ex
         super.viewDidLoad()
         let myColor = UIColor.black
         
-//        topSection.layer.shadowRadius = 5
-        topSection.layer.shadowOffset = CGSize(width: 0, height: 2)
-        topSection.layer.shadowOpacity = 0.6
-        topSection.layer.shadowRadius = 1.0
+        
+        topSection.layer.shadowOffset =  CGSize(width: 0.0, height: 2.0)
+        topSection.layer.shadowOpacity = 0.5
+        topSection.layer.shadowRadius = 0.3
         topSection.layer.masksToBounds = false
- 
+        topSection.layer.cornerRadius = 0
+        
         searchSection.layer.cornerRadius = 8
         searchSection.layer.borderWidth = 1
         searchSection.layer.borderColor = myColor.cgColor
@@ -61,7 +62,7 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Ex
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = ExpandableHeaderView()
-        header.customInit(title: sections[section].genre, section:section, delegate: self)
+        header.customInit(title: sections[section].genre, section:section, delegate: self, background_image: sections[section].background_image)
         return header
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

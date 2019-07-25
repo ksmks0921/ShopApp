@@ -11,10 +11,13 @@ struct Section {
     var genre: String!
     var movies: [String]!
     var expanded: Bool!
+    var background_image: String!
     
-    init(genre: String, movies:[String], expanded: Bool){
+    
+    init(genre: String, movies:[String], expanded: Bool, background_image: String){
         self.genre = genre
         self.movies = movies
         self.expanded = expanded
+        self.background_image = background_image
     }
 }
