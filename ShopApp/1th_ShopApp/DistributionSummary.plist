@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ShopApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>BC3C16D0D49098FABE7C9D3815109D748A2792C3</string>
+				<key>dateExpires</key>
+				<string>7/21/20</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>BC3C16D0D49098FABE7C9D3815109D748A2792C3</string>
+						<key>dateExpires</key>
+						<string>7/21/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>DLRadioButton.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2A6YRB9K5R</string>
+						<key>name</key>
+						<string>VNS GLOBAL LTD</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>BC3C16D0D49098FABE7C9D3815109D748A2792C3</string>
+						<key>dateExpires</key>
+						<string>7/21/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>Parchment.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2A6YRB9K5R</string>
+						<key>name</key>
+						<string>VNS GLOBAL LTD</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2A6YRB9K5R.latin.ks.shopApp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2A6YRB9K5R</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>2A6YRB9K5R.latin.ks.shopApp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>ShopApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>5c444341-f060-401e-b0b9-eb382af6731f</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: latin.ks.shopApp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2A6YRB9K5R</string>
+				<key>name</key>
+				<string>VNS GLOBAL LTD</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

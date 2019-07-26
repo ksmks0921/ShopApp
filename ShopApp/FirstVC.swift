@@ -16,6 +16,8 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
     @IBOutlet var searchSection: UIView!
     @IBOutlet var leftImage: UIImageView!
     @IBOutlet weak var rightButton: UIImageView!
+    @IBOutlet weak var cartButton: UIImageView!
+    @IBOutlet weak var notificationButton: UIImageView!
     
     
     
@@ -27,18 +29,22 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
 
    
     
+    var pageControl = UIPageControl()
+//    func configurePageControl() {
+//        // The total number of pages that are available is based on how many available colors we have.
+//        pageControl = UIPageControl(frame: CGRect(x: 0,y: UIScreen.main.bounds.maxY - 50,width: UIScreen.main.bounds.width,height: 50))
+//        self.pageControl.numberOfPages = orderedViewControllers.count
+//        self.pageControl.currentPage = 0
+//        self.pageControl.tintColor = UIColor.black
+//        self.pageControl.pageIndicatorTintColor = UIColor.white
+//        self.pageControl.currentPageIndicatorTintColor = UIColor.black
+//        self.view.addSubview(pageControl)
+//    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     
-//        firstCollection.contentInset = UIEdgeInsets(top: 10.0,
-//                                                    left: 10.0,
-//                                                    bottom: 10.0,
-//                                                    right: 10.0)
-//        secondCollection.contentInset = UIEdgeInsets(top: 10.0,
-//                                                     left: 30.0,
-//                                                     bottom: 10.0,
-//                                                     right: 30.0)
+    
 
         
         topView.layer.shadowOffset =  CGSize(width: 0.0, height: 2.0)
@@ -47,22 +53,25 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
         topView.layer.masksToBounds = false
         topView.layer.cornerRadius = 0
         
- 
-        //                first_collection.contentView.layer.borderWidth = 1
-        //        firstCell.contentView.layer.borderColor = [UIColor clearColor].CGColor
 
-        
-        //        firstCell.layer.shadowColor = [UIColor blackColor].CGColor
  
 
         searchSection.layer.cornerRadius = 8
         
-        
         leftImage.layer.cornerRadius = 6
         
+        //imageview into btn
         let singleTap = UITapGestureRecognizer(target: self, action: #selector(ImageClicked(gesture:)))
         rightButton.isUserInteractionEnabled = true
         rightButton.addGestureRecognizer(singleTap)
+        
+        let cartTap = UITapGestureRecognizer(target: self, action: #selector(CartClicked(gesture:)))
+        cartButton.isUserInteractionEnabled = true
+        cartButton.addGestureRecognizer(cartTap)
+        
+        let notificationTap = UITapGestureRecognizer(target: self, action: #selector(NotiClicked(gesture:)))
+        notificationButton.isUserInteractionEnabled = true
+        notificationButton.addGestureRecognizer(notificationTap)
         
         
         
@@ -74,8 +83,25 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
 //
 //
 //        self.navigationController?.pushViewController(controller, animated: true)
-        let indexPath = IndexPath(item: 1, section: 0)
-   
+//        let indexPath = IndexPath(item: 1, section: 0)
+        
+    }
+    
+    @objc func CartClicked(gesture: UIGestureRecognizer) {
+
+                let cartController = self.storyboard?.instantiateViewController(withIdentifier: "cartVC") as! CartVC
+
+                self.navigationController?.pushViewController(cartController, animated: true)
+        
+    }
+    
+    @objc func NotiClicked(gesture: UIGestureRecognizer) {
+        
+        let notificationController = self.storyboard?.instantiateViewController(withIdentifier: "notificationVC") as! notiVC
+        
+        self.navigationController?.pushViewController(notificationController, animated: true)
+        
+        
     }
     
     
@@ -119,9 +145,9 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
 //        if collectionView == self.firstCollection {
 //            return 0
 //        }
-//            
+//
 //        else {
-//            
+//
 //            return 0
 //        }
 //    }
@@ -172,6 +198,7 @@ class FirstVC: UIViewController, UICollectionViewDataSource, UICollectionViewDel
         }
             
         else {
+            
             let second_collection = collectionView.dequeueReusableCell(withReuseIdentifier: "second_cell", for: indexPath)
             second_collection.layer.cornerRadius = 2
             //                first_collection.contentView.layer.borderWidth = 1

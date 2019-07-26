@@ -18,7 +18,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
                 self.newVc(viewController: "third")]
     }()
     
-    
+   
     override func viewDidLoad() {
         
        
@@ -33,7 +33,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         }
         
    
-        
+    
         
         // Do any additional setup after loading the view.
     }
@@ -85,7 +85,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         return orderedViewControllers[nextIndex]
     }
     
-    
+  
     
 
     //This func is used to load the view controllers as you scroll through the different views

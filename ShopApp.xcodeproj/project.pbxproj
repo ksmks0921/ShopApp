@@ -15,6 +15,8 @@
 		7D52F65622EA4E5D003C0152 /* countriesToCities.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D52F65322EA4E5C003C0152 /* countriesToCities.json */; };
 		7D52F65722EA4E5D003C0152 /* CityPickerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65422EA4E5C003C0152 /* CityPickerClass.swift */; };
 		7D52F65822EA4E5D003C0152 /* CityPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65522EA4E5D003C0152 /* CityPickerViewController.swift */; };
+		7D52F65A22EB97B9003C0152 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65922EB97B8003C0152 /* CartVC.swift */; };
+		7D52F65C22EBA9CE003C0152 /* notiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65B22EBA9CE003C0152 /* notiVC.swift */; };
 		7D8AD7B722D3ABB4008E97CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */; };
 		7D8AD7BC22D3ABB4008E97CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AD7BA22D3ABB4008E97CD /* Main.storyboard */; };
 		7D8AD7BE22D3ABB6008E97CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AD7BD22D3ABB6008E97CD /* Assets.xcassets */; };
@@ -65,6 +67,8 @@
 		7D52F65322EA4E5C003C0152 /* countriesToCities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countriesToCities.json; sourceTree = "<group>"; };
 		7D52F65422EA4E5C003C0152 /* CityPickerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityPickerClass.swift; sourceTree = "<group>"; };
 		7D52F65522EA4E5D003C0152 /* CityPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityPickerViewController.swift; sourceTree = "<group>"; };
+		7D52F65922EB97B8003C0152 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		7D52F65B22EBA9CE003C0152 /* notiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notiVC.swift; sourceTree = "<group>"; };
 		7D8AD7B322D3ABB4008E97CD /* ShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D8AD7BB22D3ABB4008E97CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 				7DFC5C8C22D5950300804E6B /* ViewController.swift */,
 				7DFC5C8E22D5968400804E6B /* PageViewController.swift */,
 				7DB5229722DFFE4C00FAD986 /* FirstVC.swift */,
+				7D52F65922EB97B8003C0152 /* CartVC.swift */,
+				7D52F65B22EBA9CE003C0152 /* notiVC.swift */,
 				7DB5229F22E0BA4C00FAD986 /* SecondVC.swift */,
 				7DB522A322E0D2C200FAD986 /* ExpandableHeaderView.swift */,
 				7DB522A122E0CC6200FAD986 /* Section.swift */,
@@ -494,6 +500,8 @@
 				7D997C8522E0E6F300BE34E9 /* thirdVC.swift in Sources */,
 				7DB5229822DFFE4C00FAD986 /* FirstVC.swift in Sources */,
 				7D8AD7B722D3ABB4008E97CD /* AppDelegate.swift in Sources */,
+				7D52F65A22EB97B9003C0152 /* CartVC.swift in Sources */,
+				7D52F65C22EBA9CE003C0152 /* notiVC.swift in Sources */,
 				7DFC5C8D22D5950300804E6B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
