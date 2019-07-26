@@ -12,6 +12,9 @@
 		6B52FB7914335F831D6C6D6A /* Pods_ShopAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E275459AC82493CCDF678EA9 /* Pods_ShopAppUITests.framework */; };
 		7D52F64E22E980F8003C0152 /* loginSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F64D22E980F8003C0152 /* loginSelect.swift */; };
 		7D52F65222EA1732003C0152 /* createAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65122EA1731003C0152 /* createAccountVC.swift */; };
+		7D52F65622EA4E5D003C0152 /* countriesToCities.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D52F65322EA4E5C003C0152 /* countriesToCities.json */; };
+		7D52F65722EA4E5D003C0152 /* CityPickerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65422EA4E5C003C0152 /* CityPickerClass.swift */; };
+		7D52F65822EA4E5D003C0152 /* CityPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65522EA4E5D003C0152 /* CityPickerViewController.swift */; };
 		7D8AD7B722D3ABB4008E97CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */; };
 		7D8AD7BC22D3ABB4008E97CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AD7BA22D3ABB4008E97CD /* Main.storyboard */; };
 		7D8AD7BE22D3ABB6008E97CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AD7BD22D3ABB6008E97CD /* Assets.xcassets */; };
@@ -59,6 +62,9 @@
 		36965EC5B0DE5B56DC8F0FE9 /* Pods-ShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.release.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.release.xcconfig"; sourceTree = "<group>"; };
 		7D52F64D22E980F8003C0152 /* loginSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginSelect.swift; sourceTree = "<group>"; };
 		7D52F65122EA1731003C0152 /* createAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountVC.swift; sourceTree = "<group>"; };
+		7D52F65322EA4E5C003C0152 /* countriesToCities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countriesToCities.json; sourceTree = "<group>"; };
+		7D52F65422EA4E5C003C0152 /* CityPickerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityPickerClass.swift; sourceTree = "<group>"; };
+		7D52F65522EA4E5D003C0152 /* CityPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityPickerViewController.swift; sourceTree = "<group>"; };
 		7D8AD7B322D3ABB4008E97CD /* ShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D8AD7BB22D3ABB4008E97CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -173,6 +179,9 @@
 		7D8AD7B522D3ABB4008E97CD /* ShopApp */ = {
 			isa = PBXGroup;
 			children = (
+				7D52F65422EA4E5C003C0152 /* CityPickerClass.swift */,
+				7D52F65522EA4E5D003C0152 /* CityPickerViewController.swift */,
+				7D52F65322EA4E5C003C0152 /* countriesToCities.json */,
 				7DD2D85022E7AC4B000571C5 /* first */,
 				7DD2D82422E6AB30000571C5 /* Detail */,
 				7DB5229C22E0254700FAD986 /* fonts */,
@@ -352,6 +361,7 @@
 			files = (
 				7D8AD7C122D3ABB6008E97CD /* LaunchScreen.storyboard in Resources */,
 				7DB5229E22E0254700FAD986 /* araalmbon.otf in Resources */,
+				7D52F65622EA4E5D003C0152 /* countriesToCities.json in Resources */,
 				7DD2D82C22E6B7B3000571C5 /* HeaderImageTableViewCell.xib in Resources */,
 				7DD2D85622E7B1DA000571C5 /* firstCellViewCell.xib in Resources */,
 				7D8AD7BE22D3ABB6008E97CD /* Assets.xcassets in Resources */,
@@ -473,6 +483,8 @@
 				7DFC5C8F22D5968400804E6B /* PageViewController.swift in Sources */,
 				7D52F64E22E980F8003C0152 /* loginSelect.swift in Sources */,
 				7DB522A422E0D2C200FAD986 /* ExpandableHeaderView.swift in Sources */,
+				7D52F65822EA4E5D003C0152 /* CityPickerViewController.swift in Sources */,
+				7D52F65722EA4E5D003C0152 /* CityPickerClass.swift in Sources */,
 				7DB522A222E0CC6200FAD986 /* Section.swift in Sources */,
 				7DB522A022E0BA4C00FAD986 /* SecondVC.swift in Sources */,
 				7DD2D84922E74C37000571C5 /* ProductItemCell.swift in Sources */,

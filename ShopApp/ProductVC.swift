@@ -47,6 +47,9 @@ class ProductVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         return 5.0
     }
     
+  
+    
+    
     // the collectionView of product items
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return items.count
