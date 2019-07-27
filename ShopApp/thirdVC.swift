@@ -118,19 +118,20 @@ class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDele
         let pageWidth = loginTab.frame.size.width
         let currentPage = loginTab.contentOffset.x / pageWidth
         
-        if (0.0 != fmodf(Float(currentPage), 1.0))
+        if (currentPage == 0)
         {
             
           print(currentPage + 1)
-            self.telTab.textColor = UIColor.black
-            self.emailTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
+            self.emailTab.textColor = UIColor.black
+            self.telTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
+            
         }
         else
         {
             
             print(currentPage)
-            self.emailTab.textColor = UIColor.black
-            self.telTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
+            self.telTab.textColor = UIColor.black
+            self.emailTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
         }
     }
     /*
