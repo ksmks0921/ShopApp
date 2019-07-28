@@ -7,79 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D18110D2D9F52FDE7243665E91D395 /* Pods-ShopApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA2CB7A1A04BF7984C9D110360D5DB /* Pods-ShopApp-dummy.m */; };
-		156E8B3250EEC34E20B0AA1ED96D50F1 /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC0DA4F7D46B634B72FDA26DDF090E /* PagingDiff.swift */; };
-		194D690E65D42AA31E1E480B43EAEB6B /* PagingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53895659696BDFD53AC682161DB794B2 /* PagingStateMachine.swift */; };
-		1AFBD5A1CE9BB622B8EED54DADD0A81C /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990266EF9705548AE0E5FE92B3B8DD3F /* PagingMenuTransition.swift */; };
-		1B28F5462DDBD311D42BD4487370D5E8 /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3A446DDC510CF848E99CB85A008FF3 /* PagingViewControllerDataSource.swift */; };
-		20242C2B6E9D41B6990DC4D7BA183D9A /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17165E3345AB910A212E2440F5077B84 /* PagingMenuInteraction.swift */; };
-		21B57517A13F45F7E4E161A70FE28D2F /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F94100BA270ECB124394969FA5386C /* PagingView.swift */; };
-		21D652C423D1A44F18EC3D6CCFF25085 /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D991CA351F8E2A76644E9575950CCB /* PagingSizeCache.swift */; };
-		223C4607BDD85F970ABDC4CBC5101546 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CA30846FD1B6A7AC932778EA0D7D70 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22D553E59BA05BBC7618032056EF9EC3 /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA14ECF7C22AFFD32AA03EAE657549 /* PagingDirection.swift */; };
-		2B0B70AF8DF6548BA3A748473803CC90 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE64144B77CF54AF55287B8EB2C63F /* UIColor+interpolation.swift */; };
-		2B263009086DA53A18BA00F808A051A3 /* PagingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F618251505EF2D2240428C23E80FBB1 /* PagingEvent.swift */; };
-		2BA85689A7DDE6626E3C8C5468053F9E /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20743C9AEA9C9A3826AE0B352D27C826 /* PagingTitleCell.swift */; };
+		11ADAF32D6A2F60B62B110320A2DD406 /* NMNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AC99BAA88C938E6C97FDB872D986 /* NMNibView.swift */; };
+		156E8B3250EEC34E20B0AA1ED96D50F1 /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8069CC39468EBBF57AD19407EBD449 /* PagingDiff.swift */; };
+		18D443BA50BB6DD741300BEB53EF660B /* Pods-ShopApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80CEAAA7228D967E76FFF7A4407FDDB /* Pods-ShopApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		194D690E65D42AA31E1E480B43EAEB6B /* PagingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2361EB8D677464E554656DDD28051FE /* PagingStateMachine.swift */; };
+		1AFBD5A1CE9BB622B8EED54DADD0A81C /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F16C4F70D63A8E1CD45A4CD521773 /* PagingMenuTransition.swift */; };
+		1B28F5462DDBD311D42BD4487370D5E8 /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D09BBF79C50371E2A0F4BCAF4B812 /* PagingViewControllerDataSource.swift */; };
+		20242C2B6E9D41B6990DC4D7BA183D9A /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CA49B0CFD70DC4A652680DA83E04F /* PagingMenuInteraction.swift */; };
+		21B57517A13F45F7E4E161A70FE28D2F /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048AB60833C0150988E264E099D05B7 /* PagingView.swift */; };
+		21D652C423D1A44F18EC3D6CCFF25085 /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A83BD89400CC69EC7873EA25FA50C /* PagingSizeCache.swift */; };
+		223C4607BDD85F970ABDC4CBC5101546 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B14B32748BA41A12D3890F27DA4EF865 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D553E59BA05BBC7618032056EF9EC3 /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2441F8ADC459D477481806BAB59A1B0 /* PagingDirection.swift */; };
+		2A9330F261A48026A20A70CFCDB3945E /* NMLocalizedPhoneCountryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF3D59B1F2621E7C6941B3A76F8DF2 /* NMLocalizedPhoneCountryView-dummy.m */; };
+		2B0B70AF8DF6548BA3A748473803CC90 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A121CFB6C3312B60007C0E1BEB5AB /* UIColor+interpolation.swift */; };
+		2B263009086DA53A18BA00F808A051A3 /* PagingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1B5EE6EEE4ACE346381A252E4235F1 /* PagingEvent.swift */; };
+		2BA85689A7DDE6626E3C8C5468053F9E /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A98518437782A37E742FADA0041029 /* PagingTitleCell.swift */; };
 		2C62A6FA4B68258E2C6F547A29B06180 /* Pods-ShopAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CD9401B3335053F882BCB367D47EEA /* Pods-ShopAppUITests-dummy.m */; };
 		2E6B203A47D254A547602BC7CE45CD61 /* Pods-ShopAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5A6A9E7FDFF4320929F1C94EE26E80 /* Pods-ShopAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		315C8D7424C3585023FA4C19C962ADC1 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1358B1303487806C0F0366959107C90C /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3416A4C2CC4C8513D62D179ACCEDE923 /* PagingBorderLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B435FEBCC783F82E409CADB12E430 /* PagingBorderLayoutAttributes.swift */; };
-		3487457CC8B50E6991AB123EA1563CE0 /* Parchment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D8F5C54018155271AC579427B74B6 /* Parchment-dummy.m */; };
-		3E93C6CF425E2D9964C37E6A6053CB80 /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F1E8F5217E11A333D822E93903237B /* InvalidationState.swift */; };
-		424DAC36C845945E8D859E6207047719 /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5AABBE576ECADFA61C6A2652700DBB /* PagingIndicatorOptions.swift */; };
-		46825AFA42CCD7EA2A3AA0915FF1ADCB /* PagingBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED78A7A844DF5F44FC0EB85935F64D /* PagingBorderView.swift */; };
-		49012AB584ABE722017CCDEB435C6090 /* EMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DE7A256D3F686A45C0E05A621F493 /* EMPageViewController.swift */; };
-		4E5FF622DF9B89B0C0D56356DE622C4C /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88F2A715FBB75FC6CBB6F9345ED3FB /* PagingCollectionViewLayout.swift */; };
-		5042202C82225DD822DEE1B64AA72A18 /* FixedPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6FD21B5258D7113E13FC94F63FC00 /* FixedPagingViewController.swift */; };
+		315C8D7424C3585023FA4C19C962ADC1 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52ADFC5851CD5EAC5DF286976BA0EAA2 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3416A4C2CC4C8513D62D179ACCEDE923 /* PagingBorderLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F57878F6310125DBC051E04FF3339 /* PagingBorderLayoutAttributes.swift */; };
+		3487457CC8B50E6991AB123EA1563CE0 /* Parchment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C23636175AA4E92D893C9469B3B64E24 /* Parchment-dummy.m */; };
+		3E93C6CF425E2D9964C37E6A6053CB80 /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0765C075FC26643301DE62FB0A70293 /* InvalidationState.swift */; };
+		424DAC36C845945E8D859E6207047719 /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EE761F469737AE1F7DC2E676FC238 /* PagingIndicatorOptions.swift */; };
+		46825AFA42CCD7EA2A3AA0915FF1ADCB /* PagingBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A46F48FAD85A4527226D34583DA4AE /* PagingBorderView.swift */; };
+		49012AB584ABE722017CCDEB435C6090 /* EMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7F5E30916C64D45B670E33CA826ABA /* EMPageViewController.swift */; };
+		4E5FF622DF9B89B0C0D56356DE622C4C /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802CB4EB18329B7AFF7DB9F1F844C271 /* PagingCollectionViewLayout.swift */; };
+		5042202C82225DD822DEE1B64AA72A18 /* FixedPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB8EECD19068754544E264863ABE2E /* FixedPagingViewController.swift */; };
+		536E2757BFDC505CAFE09F0FA5CA0CFD /* NMLocalizedPhoneCountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = EF08F4E109B93B4569B20C1596722EA7 /* NMLocalizedPhoneCountryView.xib */; };
 		5AB2565B6B51FB826CDAC0D49D407533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5C2A321E3A3B9E17817A9DE6535870D8 /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B35088F64F735EC26167F4F99F207 /* PagingCellViewModel.swift */; };
-		5E6C4E7BB88CA498D354F35C5C8C75FD /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF9DBE39B474D380C676D8C3AA18F3 /* PagingOptions.swift */; };
-		69837CE287542ECD3A02082CCDBF4000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		698C9BAE5F8EF1B0AEBD2B584B152245 /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E004DDF70380CB5E5FE9653920430 /* PagingMenuItemSource.swift */; };
-		765CF6408EABC5AEEEBDE9578137AACB /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C1794B05525632368B350C4F52AF40 /* PagingIndicatorView.swift */; };
-		78D1B5A9AF44192FB612A518A1A8F546 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6619FB6A29C03EE6DCAEA35A174A1F /* DLRadioButton-dummy.m */; };
-		7D0F8A1CD9864BF11A9D2924EC5F013E /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8F74DDC9B7FC590557B948BB69E4D /* PagingMenuHorizontalAlignment.swift */; };
-		81909B389C113BD88FDAE5DBE127DADF /* IndexedPagingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89152F81159CFAF22E3BF89E911061B /* IndexedPagingDataSource.swift */; };
+		5C2A321E3A3B9E17817A9DE6535870D8 /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784475A6F1487582488C53334700E20 /* PagingCellViewModel.swift */; };
+		5E6C4E7BB88CA498D354F35C5C8C75FD /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DE851C8EE321697A6EF1D96B4E5CA /* PagingOptions.swift */; };
+		642FC98C4ABA80CAC9882B24049ECA80 /* NMLocalizedPhoneCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E584F9BC3615BE5B4A7E717D1C9FFC0 /* NMLocalizedPhoneCountryView.swift */; };
+		698C9BAE5F8EF1B0AEBD2B584B152245 /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893EC9F937BF6C3B7BFE8BE652689865 /* PagingMenuItemSource.swift */; };
+		6FDE8FC66D50A94B352F80D9B864FC59 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 90CB65862FF5C55AF6C786A870D04E64 /* Data */; };
+		76236F2A512FD5A8D512DA443E73B02F /* NMLocalizedPhoneCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34466422F4A4F9C55AF690ABB075734 /* NMLocalizedPhoneCountryViewController.swift */; };
+		765CF6408EABC5AEEEBDE9578137AACB /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B7858ACACFA9AE57153605529B761 /* PagingIndicatorView.swift */; };
+		78D1B5A9AF44192FB612A518A1A8F546 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D1886CD233804D50AB19087340FA64 /* DLRadioButton-dummy.m */; };
+		795A7F4C9402C18C2625385BF58A24D6 /* NMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C4361205363D66EF7FBD267CDAB77 /* NMExtensions.swift */; };
+		7D0F8A1CD9864BF11A9D2924EC5F013E /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E66234B12E1DAA4ABD10C8428D71C /* PagingMenuHorizontalAlignment.swift */; };
+		7FD552C30AAED0B0C7BF502449556D6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		813E51B0B2D24D98516621B05AE810F9 /* NMDelegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED429158BBEE90141D5FF44E2271C1E3 /* NMDelegate+DataSource.swift */; };
+		81909B389C113BD88FDAE5DBE127DADF /* IndexedPagingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B87C4D8B6D74D3C66B458E5E3AC16 /* IndexedPagingDataSource.swift */; };
 		829D4FC64F1185592468C3CE51E88B00 /* Pods-ShopAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C0886F4EBB91D708D563090311BE72 /* Pods-ShopAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		839DA1ED786769B562A5113BE9B0F976 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC8123F1813390CB333B0385B44425C /* PagingCellLayoutAttributes.swift */; };
-		84E8D633BDA6482EBBAF71A6BCF4AC5E /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9EE9C765844C1A8E11983D18345EFC /* PagingInvalidationContext.swift */; };
-		87B43668E5978A16983F67E237983563 /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FA4CC729F35C772EC5858EE22D8F50 /* PagingItem.swift */; };
-		88B7719511A8609844C6990316F86844 /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8C8A6985A5BA2CF30A32BE9F30B71 /* PagingTransition.swift */; };
-		99626D1E076359EFB1E48740F4227810 /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6473ACFABF02AB8260843A6069301B5 /* Tween.swift */; };
+		839DA1ED786769B562A5113BE9B0F976 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F1C0A36753CD01A71E3FAA4647EA24 /* PagingCellLayoutAttributes.swift */; };
+		8449BC9E8A9B53237EE4F28C1AC5C448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		84B5E40DC67622250E320680BFB5515E /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 727CC12E19043533E131A294305FFF90 /* Images */; };
+		84E8D633BDA6482EBBAF71A6BCF4AC5E /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659B8A03B62037D02FF081C693271CC /* PagingInvalidationContext.swift */; };
+		87B43668E5978A16983F67E237983563 /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A4AD4F128715EF679A05583BA6ED6 /* PagingItem.swift */; };
+		88B7719511A8609844C6990316F86844 /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F7BE15C1274BFDFE401A0B42F6956 /* PagingTransition.swift */; };
+		8ADAF986486B733649AD2C6680418BEF /* NMLocalizedPhoneCountryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69079C70C1FA4D7D26E5EDA49180B69A /* NMLocalizedPhoneCountryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99626D1E076359EFB1E48740F4227810 /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA7D8D0EEBB9782A1A2166DD8BBE08 /* Tween.swift */; };
 		A7AF29B68066555727FD2B048795391C /* Pods-ShopAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CA0718557315157FDF84F5595D2D2 /* Pods-ShopAppTests-dummy.m */; };
 		B402919D1DC5CB940B0186CAA39F330E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BE1BD33C0EBCA10982819BEFAFD77ECB /* Parchment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB683186D73A847066293A3BA15A56C2 /* Parchment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C18A935D7B9C533D005F5F380CAA2698 /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD249FAC564074929723B9C13ADB29E /* PagingViewControllerInfiniteDataSource.swift */; };
-		C1CCA98E09DB02D11B83E8AB7717E6CA /* Pods-ShopApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80CEAAA7228D967E76FFF7A4407FDDB /* Pods-ShopApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4329F04004B0E8BAD5707DAAE97344A /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC7A2CF767EA553D06E2D52DAECCC6 /* PagingIndicatorLayoutAttributes.swift */; };
-		C7FE39F5677751083EBFB3E5E9A13EC2 /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F93258564FECF479113CFEE85CC39 /* PagingItems.swift */; };
-		C900832373F4089E99509047911ADB8C /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACAF46046B510F093E56F3203B754E /* PagingState.swift */; };
-		C9C850016773EF141D452176FD7CBAFC /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B372D71BCAF1D3924CA7B8145E5DE /* PagingLayout.swift */; };
-		D26F73FAB5AE24C7B87ED23910571089 /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F726E518824D14CFA0D3936A4FB41 /* PagingSelectedScrollPosition.swift */; };
-		D30386A6C7F19B6518EDEDC2599CCC7E /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F9F473251CE1494AC120B95E5CD18 /* PagingViewController.swift */; };
-		D362EBB887CA5483D91FFD4B479D64B8 /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB33A2408B054F0D600CC9A21D2C157 /* PagingBorderOptions.swift */; };
+		BE1BD33C0EBCA10982819BEFAFD77ECB /* Parchment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5346FECA83B6F7D46D41B07D4B6C3272 /* Parchment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18A935D7B9C533D005F5F380CAA2698 /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622444FCE4AFDA0F5699C2C641ADBC3F /* PagingViewControllerInfiniteDataSource.swift */; };
+		C4329F04004B0E8BAD5707DAAE97344A /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7170B34642D0AA90B539F80029800C /* PagingIndicatorLayoutAttributes.swift */; };
+		C7FE39F5677751083EBFB3E5E9A13EC2 /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870DD94BD30166ED38C2591F0048C6B /* PagingItems.swift */; };
+		C900832373F4089E99509047911ADB8C /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C3541AB04A82E9DC29E4780BA5A48 /* PagingState.swift */; };
+		C9C850016773EF141D452176FD7CBAFC /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E368D7AAB5B983315808C6C9E9F0C0DD /* PagingLayout.swift */; };
+		D26F73FAB5AE24C7B87ED23910571089 /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6286AB73FF41FB6F2D05BBF262ABCA9C /* PagingSelectedScrollPosition.swift */; };
+		D30386A6C7F19B6518EDEDC2599CCC7E /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85FB8EB0517AB4E3ECC39B6A637C56B /* PagingViewController.swift */; };
+		D362EBB887CA5483D91FFD4B479D64B8 /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EB9EFAB6E093B913D0FB6622C99570 /* PagingBorderOptions.swift */; };
+		DA5138CEFB3568627451E973F83E0664 /* NMLocalizedPhoneCountryView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D25C75307FEAA7724AC727968DF576D /* NMLocalizedPhoneCountryView.bundle */; };
 		DE52DDB97856D1FF075EBD93FA171E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DE90BC8A9962FDFE27B71893C8A1B916 /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01BAE5DC59D818031EE95CAE762D9B9 /* PagingMenuItemSize.swift */; };
-		E0C7830515B4614EB7D553D673D94FF0 /* IndexedPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33558B1207CB6EC98BC00D531E469FA /* IndexedPagingItem.swift */; };
-		E52DC6AC06B2F6D005ECFA4A05355154 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467BDE22F232C8EE83AED70E251A8F9 /* UIView+constraints.swift */; };
-		E59314A0826FCDA86AEB62B2817ECCDD /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB46B586EB56CCEC0664270CB34931 /* UIEdgeInsets.swift */; };
+		DE90BC8A9962FDFE27B71893C8A1B916 /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3832D45BC463713C66153BD1394059 /* PagingMenuItemSize.swift */; };
+		E0C7830515B4614EB7D553D673D94FF0 /* IndexedPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F003E6EDC25C0FE0D9BA6A48EEF522 /* IndexedPagingItem.swift */; };
+		E52DC6AC06B2F6D005ECFA4A05355154 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF737DD140890C4DDF46EFEDC959A0 /* UIView+constraints.swift */; };
+		E59314A0826FCDA86AEB62B2817ECCDD /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE2C468D884327053375D63EEE610C /* UIEdgeInsets.swift */; };
 		EAF3E65A7E6E66FA0F726BE73019F945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EC031D0B3B5E1E01AF0001873598700A /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A6F038D2996008A86057F7C3CBFCCE /* PagingDistance.swift */; };
-		EE1F5AF82A8ABDBD025AD0C9C1206BC2 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C9385C2FD7D444ABDB2745BF8384203C /* DLRadioButton.m */; };
-		F53C7689B6CAF6A76165841B7B3021A6 /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD393C1991BC50B0E0C0C89D0152049 /* PagingIndicatorMetric.swift */; };
-		FA73C84414471C49E9A28F90D0890747 /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2566F3530EBA553FA112806B1B23B3A7 /* PagingContentInteraction.swift */; };
-		FAD12BBFB4AC951FDD83860D5B38EC98 /* UIScrollView+near.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C028CD92916764898A53C810297FB57 /* UIScrollView+near.swift */; };
-		FDFB63D51C62B285D005955658FC6F89 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E73E961C347867BC766412CE75BA1 /* PagingViewControllerDelegate.swift */; };
-		FF0FACB53DACB614EFFF80C3D6EE1731 /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84465F7DA8806E09ABD00EFA45EF13 /* PagingCell.swift */; };
+		EC031D0B3B5E1E01AF0001873598700A /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDACB19AF494809BD0CC287690296F19 /* PagingDistance.swift */; };
+		EE1F5AF82A8ABDBD025AD0C9C1206BC2 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B9D74D30D326696FCBA4BA9D224E5D /* DLRadioButton.m */; };
+		F0D429DDBA1D8EB14C4F3119D17AA9DD /* Pods-ShopApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA2CB7A1A04BF7984C9D110360D5DB /* Pods-ShopApp-dummy.m */; };
+		F53C7689B6CAF6A76165841B7B3021A6 /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84742A6631461F54A27C24E15B39C41 /* PagingIndicatorMetric.swift */; };
+		FA73C84414471C49E9A28F90D0890747 /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9090383546C773181E22CA2F212D6 /* PagingContentInteraction.swift */; };
+		FAD12BBFB4AC951FDD83860D5B38EC98 /* UIScrollView+near.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EF5DCA4350ED13A53165921A3899A /* UIScrollView+near.swift */; };
+		FDFB63D51C62B285D005955658FC6F89 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAEC9742F640F71171CB4DC8847D7ED /* PagingViewControllerDelegate.swift */; };
+		FF0FACB53DACB614EFFF80C3D6EE1731 /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F0760256840012504A932EAE2E9417 /* PagingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		09327943AF191B935CBB2C0E34204B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18184DEEDE7075D999122505659B55E9;
+			remoteInfo = Parchment;
+		};
 		2343B63715B358BF6B459F8A8C6589C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6B568B2B09A12F320751E499375F1F27;
 			remoteInfo = "Pods-ShopApp";
+		};
+		34A4A8D4DBEB8E77DEDDD7A0527455BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED8F38B6D4A3AD6DFF85D18F9F09435;
+			remoteInfo = DLRadioButton;
 		};
 		37D3F62E4FB5C49430924EE776765970 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -88,119 +114,144 @@
 			remoteGlobalIDString = 6B568B2B09A12F320751E499375F1F27;
 			remoteInfo = "Pods-ShopApp";
 		};
-		C0DEDFA0A4197D813598F8365EBF7F43 /* PBXContainerItemProxy */ = {
+		A7057DD166203E09732E99262EDF25FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BED8F38B6D4A3AD6DFF85D18F9F09435;
-			remoteInfo = DLRadioButton;
+			remoteGlobalIDString = 1155C1682BB551F1410577479A7AB0BC;
+			remoteInfo = "NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView";
 		};
-		E72C4669110AA2C7B3AF7268DDD5C8EF /* PBXContainerItemProxy */ = {
+		FE01B5EC805DF942FC1053EAB69CF0A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18184DEEDE7075D999122505659B55E9;
-			remoteInfo = Parchment;
+			remoteGlobalIDString = D087831C4E8EEFECBE0AAA4D3D441778;
+			remoteInfo = NMLocalizedPhoneCountryView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01CD9401B3335053F882BCB367D47EEA /* Pods-ShopAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopAppUITests-dummy.m"; sourceTree = "<group>"; };
-		046292EB3D8F0D2D4927992CE7CF8CEC /* Pods_ShopAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShopAppUITests.framework; path = "Pods-ShopAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7D8F5C54018155271AC579427B74B6 /* Parchment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parchment-dummy.m"; sourceTree = "<group>"; };
-		0AC8123F1813390CB333B0385B44425C /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellLayoutAttributes.swift; path = Parchment/Classes/PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
+		03EF737DD140890C4DDF46EFEDC959A0 /* UIView+constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constraints.swift"; path = "Parchment/Extensions/UIView+constraints.swift"; sourceTree = "<group>"; };
+		06AE2C468D884327053375D63EEE610C /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = Parchment/Extensions/UIEdgeInsets.swift; sourceTree = "<group>"; };
+		0C06093CB7BE5EA276CC445609D949C8 /* NMLocalizedPhoneCountryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMLocalizedPhoneCountryView-prefix.pch"; sourceTree = "<group>"; };
 		0CC7DA8B99D38E93365670D659568B68 /* Pods-ShopApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0E6619FB6A29C03EE6DCAEA35A174A1F /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
-		111A0ED2D975B8EADEF0CFAB38CD9432 /* Parchment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.xcconfig; sourceTree = "<group>"; };
-		1358B1303487806C0F0366959107C90C /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
-		13ACAF46046B510F093E56F3203B754E /* PagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingState.swift; path = Parchment/Enums/PagingState.swift; sourceTree = "<group>"; };
-		150F9F473251CE1494AC120B95E5CD18 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Parchment/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		0F0C2548AEEA60BAE3ACA8858B48F15B /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
+		105A121CFB6C3312B60007C0E1BEB5AB /* UIColor+interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+interpolation.swift"; path = "Parchment/Extensions/UIColor+interpolation.swift"; sourceTree = "<group>"; };
+		12EB9EFAB6E093B913D0FB6622C99570 /* PagingBorderOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderOptions.swift; path = Parchment/Enums/PagingBorderOptions.swift; sourceTree = "<group>"; };
 		169CA0718557315157FDF84F5595D2D2 /* Pods-ShopAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopAppTests-dummy.m"; sourceTree = "<group>"; };
-		17165E3345AB910A212E2440F5077B84 /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuInteraction.swift; path = Parchment/Enums/PagingMenuInteraction.swift; sourceTree = "<group>"; };
-		17FC0DA4F7D46B634B72FDA26DDF090E /* PagingDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDiff.swift; path = Parchment/Structs/PagingDiff.swift; sourceTree = "<group>"; };
-		1AFBB2C2ED33B439F4669A64931FA5BC /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
-		1C028CD92916764898A53C810297FB57 /* UIScrollView+near.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+near.swift"; path = "Parchment/Extensions/UIScrollView+near.swift"; sourceTree = "<group>"; };
-		20743C9AEA9C9A3826AE0B352D27C826 /* PagingTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTitleCell.swift; path = Parchment/Classes/PagingTitleCell.swift; sourceTree = "<group>"; };
-		2566F3530EBA553FA112806B1B23B3A7 /* PagingContentInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingContentInteraction.swift; path = Parchment/Enums/PagingContentInteraction.swift; sourceTree = "<group>"; };
+		177B7858ACACFA9AE57153605529B761 /* PagingIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorView.swift; path = Parchment/Classes/PagingIndicatorView.swift; sourceTree = "<group>"; };
+		2870DD94BD30166ED38C2591F0048C6B /* PagingItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItems.swift; path = Parchment/Structs/PagingItems.swift; sourceTree = "<group>"; };
 		29C0886F4EBB91D708D563090311BE72 /* Pods-ShopAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		2D961E6A39B628936C36DA60D96F32B5 /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
+		2C3832D45BC463713C66153BD1394059 /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSize.swift; path = Parchment/Enums/PagingMenuItemSize.swift; sourceTree = "<group>"; };
+		2F7EE761F469737AE1F7DC2E676FC238 /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorOptions.swift; path = Parchment/Enums/PagingIndicatorOptions.swift; sourceTree = "<group>"; };
+		30B4B79D3E88A31B7630D60EC9C6BCC8 /* Parchment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parchment.framework; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		311F7BE15C1274BFDFE401A0B42F6956 /* PagingTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTransition.swift; path = Parchment/Structs/PagingTransition.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33D4CB9600FFC9712A895CA4CA90A56A /* Pods-ShopAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		356B435FEBCC783F82E409CADB12E430 /* PagingBorderLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderLayoutAttributes.swift; path = Parchment/Classes/PagingBorderLayoutAttributes.swift; sourceTree = "<group>"; };
 		358DEEA638102E9334CF93E454448D25 /* Pods-ShopAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3603F64833D289D43362B7D57A7780DF /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		3A0E66234B12E1DAA4ABD10C8428D71C /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuHorizontalAlignment.swift; path = Parchment/Enums/PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
+		3B949FFDF8A9182FD94F73CAD38EACB8 /* Pods_ShopApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShopApp.framework; path = "Pods-ShopApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5F341FA3CCF03F355E99F44C1B2A9C /* Pods_ShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShopAppTests.framework; path = "Pods-ShopAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E584F9BC3615BE5B4A7E717D1C9FFC0 /* NMLocalizedPhoneCountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMLocalizedPhoneCountryView.swift; path = NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView.swift; sourceTree = "<group>"; };
+		3F0F57878F6310125DBC051E04FF3339 /* PagingBorderLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderLayoutAttributes.swift; path = Parchment/Classes/PagingBorderLayoutAttributes.swift; sourceTree = "<group>"; };
+		42B9D74D30D326696FCBA4BA9D224E5D /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		45BB38CAB30910650590585C77B89A8A /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4631DB5C8A32757B664AE94030B68B9A /* Pods-ShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopApp.debug.xcconfig"; sourceTree = "<group>"; };
-		46F1E8F5217E11A333D822E93903237B /* InvalidationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationState.swift; path = Parchment/Enums/InvalidationState.swift; sourceTree = "<group>"; };
-		47CA30846FD1B6A7AC932778EA0D7D70 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
-		50C8C8A6985A5BA2CF30A32BE9F30B71 /* PagingTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTransition.swift; path = Parchment/Structs/PagingTransition.swift; sourceTree = "<group>"; };
-		53895659696BDFD53AC682161DB794B2 /* PagingStateMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingStateMachine.swift; path = Parchment/Classes/PagingStateMachine.swift; sourceTree = "<group>"; };
-		542DE7A256D3F686A45C0E05A621F493 /* EMPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMPageViewController.swift; path = Parchment/Classes/EMPageViewController.swift; sourceTree = "<group>"; };
-		5467BDE22F232C8EE83AED70E251A8F9 /* UIView+constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constraints.swift"; path = "Parchment/Extensions/UIView+constraints.swift"; sourceTree = "<group>"; };
+		464C3541AB04A82E9DC29E4780BA5A48 /* PagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingState.swift; path = Parchment/Enums/PagingState.swift; sourceTree = "<group>"; };
+		4A3DE851C8EE321697A6EF1D96B4E5CA /* PagingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingOptions.swift; path = Parchment/Classes/PagingOptions.swift; sourceTree = "<group>"; };
+		4CBA7D8D0EEBB9782A1A2166DD8BBE08 /* Tween.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tween.swift; path = Parchment/Protocols/Tween.swift; sourceTree = "<group>"; };
+		4D4A83BD89400CC69EC7873EA25FA50C /* PagingSizeCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSizeCache.swift; path = Parchment/Classes/PagingSizeCache.swift; sourceTree = "<group>"; };
+		503EF5DCA4350ED13A53165921A3899A /* UIScrollView+near.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+near.swift"; path = "Parchment/Extensions/UIScrollView+near.swift"; sourceTree = "<group>"; };
+		52361C58A3993BC431A90B55D65EF395 /* NMLocalizedPhoneCountryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NMLocalizedPhoneCountryView.framework; path = NMLocalizedPhoneCountryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ADFC5851CD5EAC5DF286976BA0EAA2 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		5346FECA83B6F7D46D41B07D4B6C3272 /* Parchment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-umbrella.h"; sourceTree = "<group>"; };
 		54AF74F46F845DAE8F34C13586499A48 /* Pods-ShopApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShopApp.modulemap"; sourceTree = "<group>"; };
-		55CF9DBE39B474D380C676D8C3AA18F3 /* PagingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingOptions.swift; path = Parchment/Classes/PagingOptions.swift; sourceTree = "<group>"; };
-		56742378D98FE6AB36A1549897D2DF29 /* Pods_ShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShopAppTests.framework; path = "Pods-ShopAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F8312DC1F60C41EFB9395B2E34739F5 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FC8F74DDC9B7FC590557B948BB69E4D /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuHorizontalAlignment.swift; path = Parchment/Enums/PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
 		6189F990CBAA1D25CE9533EDB58AE8AF /* Pods-ShopAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShopAppTests.modulemap"; sourceTree = "<group>"; };
+		622444FCE4AFDA0F5699C2C641ADBC3F /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerInfiniteDataSource.swift; path = Parchment/Protocols/PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
+		6286AB73FF41FB6F2D05BBF262ABCA9C /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSelectedScrollPosition.swift; path = Parchment/Enums/PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
 		6377CB9B819AA6112F7857B79562F4F2 /* Pods-ShopAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65D482358FC4F1C1122494D55FC163B7 /* Parchment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-prefix.pch"; sourceTree = "<group>"; };
 		6683389369B6A6336F40757AD035CF5C /* Pods-ShopAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopAppTests-Info.plist"; sourceTree = "<group>"; };
-		6A63C6213DFF0398AF318C5D5E43D7A8 /* Pods_ShopApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShopApp.framework; path = "Pods-ShopApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71C1794B05525632368B350C4F52AF40 /* PagingIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorView.swift; path = Parchment/Classes/PagingIndicatorView.swift; sourceTree = "<group>"; };
-		7AD393C1991BC50B0E0C0C89D0152049 /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorMetric.swift; path = Parchment/Structs/PagingIndicatorMetric.swift; sourceTree = "<group>"; };
-		83F94100BA270ECB124394969FA5386C /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = Parchment/Classes/PagingView.swift; sourceTree = "<group>"; };
+		69079C70C1FA4D7D26E5EDA49180B69A /* NMLocalizedPhoneCountryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMLocalizedPhoneCountryView-umbrella.h"; sourceTree = "<group>"; };
+		6C3D09BBF79C50371E2A0F4BCAF4B812 /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDataSource.swift; path = Parchment/Protocols/PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
+		7048AB60833C0150988E264E099D05B7 /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = Parchment/Classes/PagingView.swift; sourceTree = "<group>"; };
+		70D8902C0F625A079C5D9FCDF6B46343 /* NMLocalizedPhoneCountryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NMLocalizedPhoneCountryView-Info.plist"; sourceTree = "<group>"; };
+		727CC12E19043533E131A294305FFF90 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = NMLocalizedPhoneCountryView/Assets/NMLocalizedPhoneCountryView.bundle/Images; sourceTree = "<group>"; };
+		77D3EA3BB68C352F8DF74A67E9737418 /* Parchment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Parchment.modulemap; sourceTree = "<group>"; };
+		79F003E6EDC25C0FE0D9BA6A48EEF522 /* IndexedPagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingItem.swift; path = Parchment/Structs/IndexedPagingItem.swift; sourceTree = "<group>"; };
+		7B6CA49B0CFD70DC4A652680DA83E04F /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuInteraction.swift; path = Parchment/Enums/PagingMenuInteraction.swift; sourceTree = "<group>"; };
+		802CB4EB18329B7AFF7DB9F1F844C271 /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCollectionViewLayout.swift; path = Parchment/Classes/PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		85A46F48FAD85A4527226D34583DA4AE /* PagingBorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderView.swift; path = Parchment/Classes/PagingBorderView.swift; sourceTree = "<group>"; };
 		85F5FA1F67159FAD6F3CC19B0DD1827F /* Pods-ShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		88DB46B586EB56CCEC0664270CB34931 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = Parchment/Extensions/UIEdgeInsets.swift; sourceTree = "<group>"; };
-		8F618251505EF2D2240428C23E80FBB1 /* PagingEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingEvent.swift; path = Parchment/Enums/PagingEvent.swift; sourceTree = "<group>"; };
+		8659B8A03B62037D02FF081C693271CC /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingInvalidationContext.swift; path = Parchment/Classes/PagingInvalidationContext.swift; sourceTree = "<group>"; };
+		893EC9F937BF6C3B7BFE8BE652689865 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSource.swift; path = Parchment/Enums/PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		8D25C75307FEAA7724AC727968DF576D /* NMLocalizedPhoneCountryView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NMLocalizedPhoneCountryView.bundle; path = "NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAF574440B0DF994FCABE3394AE014A /* Parchment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.xcconfig; sourceTree = "<group>"; };
 		903B6F89222EDF0E7864EB9DCBFB23A1 /* Pods-ShopAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShopAppUITests.modulemap"; sourceTree = "<group>"; };
+		90CB65862FF5C55AF6C786A870D04E64 /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = NMLocalizedPhoneCountryView/Assets/NMLocalizedPhoneCountryView.bundle/Data; sourceTree = "<group>"; };
 		939B9BE73AF21E4FCC285718D894DAFE /* Pods-ShopAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		94FA4CC729F35C772EC5858EE22D8F50 /* PagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItem.swift; path = Parchment/Protocols/PagingItem.swift; sourceTree = "<group>"; };
-		990266EF9705548AE0E5FE92B3B8DD3F /* PagingMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuTransition.swift; path = Parchment/Enums/PagingMenuTransition.swift; sourceTree = "<group>"; };
+		9ACF3D59B1F2621E7C6941B3A76F8DF2 /* NMLocalizedPhoneCountryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMLocalizedPhoneCountryView-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F5AABBE576ECADFA61C6A2652700DBB /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorOptions.swift; path = Parchment/Enums/PagingIndicatorOptions.swift; sourceTree = "<group>"; };
-		A6D991CA351F8E2A76644E9575950CCB /* PagingSizeCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSizeCache.swift; path = Parchment/Classes/PagingSizeCache.swift; sourceTree = "<group>"; };
+		9F1B5EE6EEE4ACE346381A252E4235F1 /* PagingEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingEvent.swift; path = Parchment/Enums/PagingEvent.swift; sourceTree = "<group>"; };
+		A200D947667368BC9F50293513BE0486 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		A2441F8ADC459D477481806BAB59A1B0 /* PagingDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDirection.swift; path = Parchment/Enums/PagingDirection.swift; sourceTree = "<group>"; };
+		A60F16C4F70D63A8E1CD45A4CD521773 /* PagingMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuTransition.swift; path = Parchment/Enums/PagingMenuTransition.swift; sourceTree = "<group>"; };
+		A6EB8EECD19068754544E264863ABE2E /* FixedPagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedPagingViewController.swift; path = Parchment/Classes/FixedPagingViewController.swift; sourceTree = "<group>"; };
 		A80CEAAA7228D967E76FFF7A4407FDDB /* Pods-ShopApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopApp-umbrella.h"; sourceTree = "<group>"; };
-		AB683186D73A847066293A3BA15A56C2 /* Parchment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-umbrella.h"; sourceTree = "<group>"; };
-		ABB33A2408B054F0D600CC9A21D2C157 /* PagingBorderOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderOptions.swift; path = Parchment/Enums/PagingBorderOptions.swift; sourceTree = "<group>"; };
-		AC88F2A715FBB75FC6CBB6F9345ED3FB /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCollectionViewLayout.swift; path = Parchment/Classes/PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
-		AE3E004DDF70380CB5E5FE9653920430 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSource.swift; path = Parchment/Enums/PagingMenuItemSource.swift; sourceTree = "<group>"; };
-		AF8E73E961C347867BC766412CE75BA1 /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDelegate.swift; path = Parchment/Protocols/PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		A84742A6631461F54A27C24E15B39C41 /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorMetric.swift; path = Parchment/Structs/PagingIndicatorMetric.swift; sourceTree = "<group>"; };
+		AD83433CEFB96D6F1C6F3B18B0380F31 /* Parchment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Parchment-Info.plist"; sourceTree = "<group>"; };
+		AE8069CC39468EBBF57AD19407EBD449 /* PagingDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDiff.swift; path = Parchment/Structs/PagingDiff.swift; sourceTree = "<group>"; };
+		AF1DC42199E0F1F7FE1F22C9CFA74426 /* Pods_ShopAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShopAppUITests.framework; path = "Pods-ShopAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F7CA93EAC6A335ACEE53F37DABFA6B /* Pods-ShopApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		B42F93258564FECF479113CFEE85CC39 /* PagingItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItems.swift; path = Parchment/Structs/PagingItems.swift; sourceTree = "<group>"; };
-		B4A6F038D2996008A86057F7C3CBFCCE /* PagingDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDistance.swift; path = Parchment/Structs/PagingDistance.swift; sourceTree = "<group>"; };
+		B14B32748BA41A12D3890F27DA4EF865 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		B4D1886CD233804D50AB19087340FA64 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
 		B4F96194ABA8B26AFA03E2D1933CF28F /* Pods-ShopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B56745DFBF6A50093E682170D9E6398F /* Pods-ShopAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BE0DAF868352BAAC3BC9D8A08BA1B8AE /* Pods-ShopAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopAppUITests-Info.plist"; sourceTree = "<group>"; };
-		BF84465F7DA8806E09ABD00EFA45EF13 /* PagingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCell.swift; path = Parchment/Classes/PagingCell.swift; sourceTree = "<group>"; };
-		BFCBD3B7DA81D433BD70860D76B2F4C5 /* Parchment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parchment.framework; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5CE64144B77CF54AF55287B8EB2C63F /* UIColor+interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+interpolation.swift"; path = "Parchment/Extensions/UIColor+interpolation.swift"; sourceTree = "<group>"; };
-		C6473ACFABF02AB8260843A6069301B5 /* Tween.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tween.swift; path = Parchment/Protocols/Tween.swift; sourceTree = "<group>"; };
-		C747C8832284B8FD42982E4A40E6A063 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		C0765C075FC26643301DE62FB0A70293 /* InvalidationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationState.swift; path = Parchment/Enums/InvalidationState.swift; sourceTree = "<group>"; };
+		C1D5AC99BAA88C938E6C97FDB872D986 /* NMNibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMNibView.swift; path = NMLocalizedPhoneCountryView/NMNibView.swift; sourceTree = "<group>"; };
+		C23636175AA4E92D893C9469B3B64E24 /* Parchment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parchment-dummy.m"; sourceTree = "<group>"; };
+		C2B9090383546C773181E22CA2F212D6 /* PagingContentInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingContentInteraction.swift; path = Parchment/Enums/PagingContentInteraction.swift; sourceTree = "<group>"; };
+		C85FB8EB0517AB4E3ECC39B6A637C56B /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Parchment/Classes/PagingViewController.swift; sourceTree = "<group>"; };
 		C8E44B8F1B44DA865510B6B7283C3EA2 /* Pods-ShopApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopApp-Info.plist"; sourceTree = "<group>"; };
-		C9385C2FD7D444ABDB2745BF8384203C /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
-		CB828B174ADA2448F99F5219D32ABD0B /* Parchment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-prefix.pch"; sourceTree = "<group>"; };
-		CC9EE9C765844C1A8E11983D18345EFC /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingInvalidationContext.swift; path = Parchment/Classes/PagingInvalidationContext.swift; sourceTree = "<group>"; };
-		CDFC7A2CF767EA553D06E2D52DAECCC6 /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorLayoutAttributes.swift; path = Parchment/Classes/PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
-		D32B5AA6B5A6279F25CF169A102FBB93 /* Parchment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Parchment-Info.plist"; sourceTree = "<group>"; };
-		D74B372D71BCAF1D3924CA7B8145E5DE /* PagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingLayout.swift; path = Parchment/Protocols/PagingLayout.swift; sourceTree = "<group>"; };
-		D89152F81159CFAF22E3BF89E911061B /* IndexedPagingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingDataSource.swift; path = Parchment/Classes/IndexedPagingDataSource.swift; sourceTree = "<group>"; };
-		DA32AE58120B90143FC3BFFAA72E72E4 /* Parchment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Parchment.modulemap; sourceTree = "<group>"; };
+		C9AF03403969058DF0E1B4C778143DE1 /* ResourceBundle-NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView-Info.plist"; sourceTree = "<group>"; };
+		CA5B87C4D8B6D74D3C66B458E5E3AC16 /* IndexedPagingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingDataSource.swift; path = Parchment/Classes/IndexedPagingDataSource.swift; sourceTree = "<group>"; };
+		D0F1C0A36753CD01A71E3FAA4647EA24 /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellLayoutAttributes.swift; path = Parchment/Classes/PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
 		DA5A6A9E7FDFF4320929F1C94EE26E80 /* Pods-ShopAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopAppTests-umbrella.h"; sourceTree = "<group>"; };
-		E34E97BD33F5AC8AB07E33A871AF9109 /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		DC7170B34642D0AA90B539F80029800C /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorLayoutAttributes.swift; path = Parchment/Classes/PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
+		DD7F5E30916C64D45B670E33CA826ABA /* EMPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMPageViewController.swift; path = Parchment/Classes/EMPageViewController.swift; sourceTree = "<group>"; };
+		E368D7AAB5B983315808C6C9E9F0C0DD /* PagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingLayout.swift; path = Parchment/Protocols/PagingLayout.swift; sourceTree = "<group>"; };
+		E4A98518437782A37E742FADA0041029 /* PagingTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTitleCell.swift; path = Parchment/Classes/PagingTitleCell.swift; sourceTree = "<group>"; };
 		EA1288C1FBA28AFEDA0746BF8AD23D5F /* Pods-ShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopApp.release.xcconfig"; sourceTree = "<group>"; };
-		EB8F726E518824D14CFA0D3936A4FB41 /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSelectedScrollPosition.swift; path = Parchment/Enums/PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
-		ECEA14ECF7C22AFFD32AA03EAE657549 /* PagingDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDirection.swift; path = Parchment/Enums/PagingDirection.swift; sourceTree = "<group>"; };
-		EFC6FD21B5258D7113E13FC94F63FC00 /* FixedPagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedPagingViewController.swift; path = Parchment/Classes/FixedPagingViewController.swift; sourceTree = "<group>"; };
-		F01BAE5DC59D818031EE95CAE762D9B9 /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSize.swift; path = Parchment/Enums/PagingMenuItemSize.swift; sourceTree = "<group>"; };
-		F33558B1207CB6EC98BC00D531E469FA /* IndexedPagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingItem.swift; path = Parchment/Structs/IndexedPagingItem.swift; sourceTree = "<group>"; };
+		EB3E95845917EB530CCDBD09EFE24F4F /* NMLocalizedPhoneCountryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMLocalizedPhoneCountryView.xcconfig; sourceTree = "<group>"; };
+		ED429158BBEE90141D5FF44E2271C1E3 /* NMDelegate+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NMDelegate+DataSource.swift"; path = "NMLocalizedPhoneCountryView/NMDelegate+DataSource.swift"; sourceTree = "<group>"; };
+		EF08F4E109B93B4569B20C1596722EA7 /* NMLocalizedPhoneCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NMLocalizedPhoneCountryView.xib; path = NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView.xib; sourceTree = "<group>"; };
+		EF232F69FC99E009692165C76BF5E46E /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		F2361EB8D677464E554656DDD28051FE /* PagingStateMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingStateMachine.swift; path = Parchment/Classes/PagingStateMachine.swift; sourceTree = "<group>"; };
+		F34466422F4A4F9C55AF690ABB075734 /* NMLocalizedPhoneCountryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMLocalizedPhoneCountryViewController.swift; path = NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryViewController.swift; sourceTree = "<group>"; };
 		F48DB5193393A3629F79337E8DDBA5CE /* Pods-ShopAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6DA2CB7A1A04BF7984C9D110360D5DB /* Pods-ShopApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopApp-dummy.m"; sourceTree = "<group>"; };
-		FC1B35088F64F735EC26167F4F99F207 /* PagingCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellViewModel.swift; path = Parchment/Structs/PagingCellViewModel.swift; sourceTree = "<group>"; };
-		FCD249FAC564074929723B9C13ADB29E /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerInfiniteDataSource.swift; path = Parchment/Protocols/PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
+		F784475A6F1487582488C53334700E20 /* PagingCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellViewModel.swift; path = Parchment/Structs/PagingCellViewModel.swift; sourceTree = "<group>"; };
+		F7F0760256840012504A932EAE2E9417 /* PagingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCell.swift; path = Parchment/Classes/PagingCell.swift; sourceTree = "<group>"; };
+		FB4A4AD4F128715EF679A05583BA6ED6 /* PagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItem.swift; path = Parchment/Protocols/PagingItem.swift; sourceTree = "<group>"; };
+		FC8C4361205363D66EF7FBD267CDAB77 /* NMExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMExtensions.swift; path = NMLocalizedPhoneCountryView/NMExtensions.swift; sourceTree = "<group>"; };
+		FCAEC9742F640F71171CB4DC8847D7ED /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDelegate.swift; path = Parchment/Protocols/PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
 		FD01B7F6B9087E58DFA59B99275CFC41 /* Pods-ShopApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopApp-frameworks.sh"; sourceTree = "<group>"; };
-		FD3A446DDC510CF848E99CB85A008FF3 /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDataSource.swift; path = Parchment/Protocols/PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
-		FFED78A7A844DF5F44FC0EB85935F64D /* PagingBorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderView.swift; path = Parchment/Classes/PagingBorderView.swift; sourceTree = "<group>"; };
+		FD4E2DCDDBA57CC9D3A4B8EB0204A39D /* NMLocalizedPhoneCountryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NMLocalizedPhoneCountryView.modulemap; sourceTree = "<group>"; };
+		FDACB19AF494809BD0CC287690296F19 /* PagingDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDistance.swift; path = Parchment/Structs/PagingDistance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0F99B830C0786B87E9E66F81FAC7E466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD552C30AAED0B0C7BF502449556D6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11618FBAD1F7138BB03B7B2071A53E3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,11 +268,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93D4658DFCE8597964599A340D01770C /* Frameworks */ = {
+		6ED397B55157EAEBC839F48FA384595E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69837CE287542ECD3A02082CCDBF4000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8808E39A5C1CF535C7D632EFCFE649D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8449BC9E8A9B53237EE4F28C1AC5C448 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,49 +302,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F1917F0E52AA61F713622F231B19459 /* Pods */ = {
+		14FBC15E8AEB000B6896F9A2A05DA150 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2544C111D99C56C0B1453ABA27B43C1B /* DLRadioButton */,
-				A985D6D52761D6B8F9121A87E39359CE /* Parchment */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2544C111D99C56C0B1453ABA27B43C1B /* DLRadioButton */ = {
-			isa = PBXGroup;
-			children = (
-				47CA30846FD1B6A7AC932778EA0D7D70 /* DLRadioButton.h */,
-				C9385C2FD7D444ABDB2745BF8384203C /* DLRadioButton.m */,
-				499C17137B0352DF7DD768356D82B373 /* Support Files */,
-			);
-			name = DLRadioButton;
-			path = DLRadioButton;
-			sourceTree = "<group>";
-		};
-		499C17137B0352DF7DD768356D82B373 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C747C8832284B8FD42982E4A40E6A063 /* DLRadioButton.modulemap */,
-				E34E97BD33F5AC8AB07E33A871AF9109 /* DLRadioButton.xcconfig */,
-				0E6619FB6A29C03EE6DCAEA35A174A1F /* DLRadioButton-dummy.m */,
-				2D961E6A39B628936C36DA60D96F32B5 /* DLRadioButton-Info.plist */,
-				1AFBB2C2ED33B439F4669A64931FA5BC /* DLRadioButton-prefix.pch */,
-				1358B1303487806C0F0366959107C90C /* DLRadioButton-umbrella.h */,
+				A200D947667368BC9F50293513BE0486 /* DLRadioButton.modulemap */,
+				EF232F69FC99E009692165C76BF5E46E /* DLRadioButton.xcconfig */,
+				B4D1886CD233804D50AB19087340FA64 /* DLRadioButton-dummy.m */,
+				0F0C2548AEEA60BAE3ACA8858B48F15B /* DLRadioButton-Info.plist */,
+				3603F64833D289D43362B7D57A7780DF /* DLRadioButton-prefix.pch */,
+				52ADFC5851CD5EAC5DF286976BA0EAA2 /* DLRadioButton-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DLRadioButton";
 			sourceTree = "<group>";
 		};
-		4E6B2D7035BF5265CDE672FAAF48AD5A /* Support Files */ = {
+		1F81E03AEF4F9E6B370E88DFC920A015 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA32AE58120B90143FC3BFFAA72E72E4 /* Parchment.modulemap */,
-				111A0ED2D975B8EADEF0CFAB38CD9432 /* Parchment.xcconfig */,
-				0A7D8F5C54018155271AC579427B74B6 /* Parchment-dummy.m */,
-				D32B5AA6B5A6279F25CF169A102FBB93 /* Parchment-Info.plist */,
-				CB828B174ADA2448F99F5219D32ABD0B /* Parchment-prefix.pch */,
-				AB683186D73A847066293A3BA15A56C2 /* Parchment-umbrella.h */,
+				3B435C0021FF8AA67DCE1CC8CA9D0FE6 /* DLRadioButton */,
+				A827A758794EA56C1244DB46F6A50B9D /* NMLocalizedPhoneCountryView */,
+				C0D64D8DEB30790EACC0A68D4974A77D /* Parchment */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		219C849AF48B2E6769CEB12BD079261A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2DCDDBA57CC9D3A4B8EB0204A39D /* NMLocalizedPhoneCountryView.modulemap */,
+				EB3E95845917EB530CCDBD09EFE24F4F /* NMLocalizedPhoneCountryView.xcconfig */,
+				9ACF3D59B1F2621E7C6941B3A76F8DF2 /* NMLocalizedPhoneCountryView-dummy.m */,
+				70D8902C0F625A079C5D9FCDF6B46343 /* NMLocalizedPhoneCountryView-Info.plist */,
+				0C06093CB7BE5EA276CC445609D949C8 /* NMLocalizedPhoneCountryView-prefix.pch */,
+				69079C70C1FA4D7D26E5EDA49180B69A /* NMLocalizedPhoneCountryView-umbrella.h */,
+				C9AF03403969058DF0E1B4C778143DE1 /* ResourceBundle-NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMLocalizedPhoneCountryView";
+			sourceTree = "<group>";
+		};
+		3B435C0021FF8AA67DCE1CC8CA9D0FE6 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				B14B32748BA41A12D3890F27DA4EF865 /* DLRadioButton.h */,
+				42B9D74D30D326696FCBA4BA9D224E5D /* DLRadioButton.m */,
+				14FBC15E8AEB000B6896F9A2A05DA150 /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		3CDFFDE4401631A57333531DA8EDA932 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D3EA3BB68C352F8DF74A67E9737418 /* Parchment.modulemap */,
+				8FAF574440B0DF994FCABE3394AE014A /* Parchment.xcconfig */,
+				C23636175AA4E92D893C9469B3B64E24 /* Parchment-dummy.m */,
+				AD83433CEFB96D6F1C6F3B18B0380F31 /* Parchment-Info.plist */,
+				65D482358FC4F1C1122494D55FC163B7 /* Parchment-prefix.pch */,
+				5346FECA83B6F7D46D41B07D4B6C3272 /* Parchment-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Parchment";
@@ -309,60 +383,43 @@
 			path = "Target Support Files/Pods-ShopApp";
 			sourceTree = "<group>";
 		};
-		A985D6D52761D6B8F9121A87E39359CE /* Parchment */ = {
+		75802FAFDFABDD3611DD33222D9D4343 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				542DE7A256D3F686A45C0E05A621F493 /* EMPageViewController.swift */,
-				EFC6FD21B5258D7113E13FC94F63FC00 /* FixedPagingViewController.swift */,
-				D89152F81159CFAF22E3BF89E911061B /* IndexedPagingDataSource.swift */,
-				F33558B1207CB6EC98BC00D531E469FA /* IndexedPagingItem.swift */,
-				46F1E8F5217E11A333D822E93903237B /* InvalidationState.swift */,
-				356B435FEBCC783F82E409CADB12E430 /* PagingBorderLayoutAttributes.swift */,
-				ABB33A2408B054F0D600CC9A21D2C157 /* PagingBorderOptions.swift */,
-				FFED78A7A844DF5F44FC0EB85935F64D /* PagingBorderView.swift */,
-				BF84465F7DA8806E09ABD00EFA45EF13 /* PagingCell.swift */,
-				0AC8123F1813390CB333B0385B44425C /* PagingCellLayoutAttributes.swift */,
-				FC1B35088F64F735EC26167F4F99F207 /* PagingCellViewModel.swift */,
-				AC88F2A715FBB75FC6CBB6F9345ED3FB /* PagingCollectionViewLayout.swift */,
-				2566F3530EBA553FA112806B1B23B3A7 /* PagingContentInteraction.swift */,
-				17FC0DA4F7D46B634B72FDA26DDF090E /* PagingDiff.swift */,
-				ECEA14ECF7C22AFFD32AA03EAE657549 /* PagingDirection.swift */,
-				B4A6F038D2996008A86057F7C3CBFCCE /* PagingDistance.swift */,
-				8F618251505EF2D2240428C23E80FBB1 /* PagingEvent.swift */,
-				CDFC7A2CF767EA553D06E2D52DAECCC6 /* PagingIndicatorLayoutAttributes.swift */,
-				7AD393C1991BC50B0E0C0C89D0152049 /* PagingIndicatorMetric.swift */,
-				9F5AABBE576ECADFA61C6A2652700DBB /* PagingIndicatorOptions.swift */,
-				71C1794B05525632368B350C4F52AF40 /* PagingIndicatorView.swift */,
-				CC9EE9C765844C1A8E11983D18345EFC /* PagingInvalidationContext.swift */,
-				94FA4CC729F35C772EC5858EE22D8F50 /* PagingItem.swift */,
-				B42F93258564FECF479113CFEE85CC39 /* PagingItems.swift */,
-				D74B372D71BCAF1D3924CA7B8145E5DE /* PagingLayout.swift */,
-				5FC8F74DDC9B7FC590557B948BB69E4D /* PagingMenuHorizontalAlignment.swift */,
-				17165E3345AB910A212E2440F5077B84 /* PagingMenuInteraction.swift */,
-				F01BAE5DC59D818031EE95CAE762D9B9 /* PagingMenuItemSize.swift */,
-				AE3E004DDF70380CB5E5FE9653920430 /* PagingMenuItemSource.swift */,
-				990266EF9705548AE0E5FE92B3B8DD3F /* PagingMenuTransition.swift */,
-				55CF9DBE39B474D380C676D8C3AA18F3 /* PagingOptions.swift */,
-				EB8F726E518824D14CFA0D3936A4FB41 /* PagingSelectedScrollPosition.swift */,
-				A6D991CA351F8E2A76644E9575950CCB /* PagingSizeCache.swift */,
-				13ACAF46046B510F093E56F3203B754E /* PagingState.swift */,
-				53895659696BDFD53AC682161DB794B2 /* PagingStateMachine.swift */,
-				20743C9AEA9C9A3826AE0B352D27C826 /* PagingTitleCell.swift */,
-				50C8C8A6985A5BA2CF30A32BE9F30B71 /* PagingTransition.swift */,
-				83F94100BA270ECB124394969FA5386C /* PagingView.swift */,
-				150F9F473251CE1494AC120B95E5CD18 /* PagingViewController.swift */,
-				FD3A446DDC510CF848E99CB85A008FF3 /* PagingViewControllerDataSource.swift */,
-				AF8E73E961C347867BC766412CE75BA1 /* PagingViewControllerDelegate.swift */,
-				FCD249FAC564074929723B9C13ADB29E /* PagingViewControllerInfiniteDataSource.swift */,
-				C6473ACFABF02AB8260843A6069301B5 /* Tween.swift */,
-				C5CE64144B77CF54AF55287B8EB2C63F /* UIColor+interpolation.swift */,
-				88DB46B586EB56CCEC0664270CB34931 /* UIEdgeInsets.swift */,
-				1C028CD92916764898A53C810297FB57 /* UIScrollView+near.swift */,
-				5467BDE22F232C8EE83AED70E251A8F9 /* UIView+constraints.swift */,
-				4E6B2D7035BF5265CDE672FAAF48AD5A /* Support Files */,
+				45BB38CAB30910650590585C77B89A8A /* DLRadioButton.framework */,
+				8D25C75307FEAA7724AC727968DF576D /* NMLocalizedPhoneCountryView.bundle */,
+				52361C58A3993BC431A90B55D65EF395 /* NMLocalizedPhoneCountryView.framework */,
+				30B4B79D3E88A31B7630D60EC9C6BCC8 /* Parchment.framework */,
+				3B949FFDF8A9182FD94F73CAD38EACB8 /* Pods_ShopApp.framework */,
+				3D5F341FA3CCF03F355E99F44C1B2A9C /* Pods_ShopAppTests.framework */,
+				AF1DC42199E0F1F7FE1F22C9CFA74426 /* Pods_ShopAppUITests.framework */,
 			);
-			name = Parchment;
-			path = Parchment;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B538CBA1A4E5091B976C32044192842 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90CB65862FF5C55AF6C786A870D04E64 /* Data */,
+				727CC12E19043533E131A294305FFF90 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A827A758794EA56C1244DB46F6A50B9D /* NMLocalizedPhoneCountryView */ = {
+			isa = PBXGroup;
+			children = (
+				ED429158BBEE90141D5FF44E2271C1E3 /* NMDelegate+DataSource.swift */,
+				FC8C4361205363D66EF7FBD267CDAB77 /* NMExtensions.swift */,
+				3E584F9BC3615BE5B4A7E717D1C9FFC0 /* NMLocalizedPhoneCountryView.swift */,
+				EF08F4E109B93B4569B20C1596722EA7 /* NMLocalizedPhoneCountryView.xib */,
+				F34466422F4A4F9C55AF690ABB075734 /* NMLocalizedPhoneCountryViewController.swift */,
+				C1D5AC99BAA88C938E6C97FDB872D986 /* NMNibView.swift */,
+				9B538CBA1A4E5091B976C32044192842 /* Resources */,
+				219C849AF48B2E6769CEB12BD079261A /* Support Files */,
+			);
+			name = NMLocalizedPhoneCountryView;
+			path = NMLocalizedPhoneCountryView;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -373,13 +430,69 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C0D64D8DEB30790EACC0A68D4974A77D /* Parchment */ = {
+			isa = PBXGroup;
+			children = (
+				DD7F5E30916C64D45B670E33CA826ABA /* EMPageViewController.swift */,
+				A6EB8EECD19068754544E264863ABE2E /* FixedPagingViewController.swift */,
+				CA5B87C4D8B6D74D3C66B458E5E3AC16 /* IndexedPagingDataSource.swift */,
+				79F003E6EDC25C0FE0D9BA6A48EEF522 /* IndexedPagingItem.swift */,
+				C0765C075FC26643301DE62FB0A70293 /* InvalidationState.swift */,
+				3F0F57878F6310125DBC051E04FF3339 /* PagingBorderLayoutAttributes.swift */,
+				12EB9EFAB6E093B913D0FB6622C99570 /* PagingBorderOptions.swift */,
+				85A46F48FAD85A4527226D34583DA4AE /* PagingBorderView.swift */,
+				F7F0760256840012504A932EAE2E9417 /* PagingCell.swift */,
+				D0F1C0A36753CD01A71E3FAA4647EA24 /* PagingCellLayoutAttributes.swift */,
+				F784475A6F1487582488C53334700E20 /* PagingCellViewModel.swift */,
+				802CB4EB18329B7AFF7DB9F1F844C271 /* PagingCollectionViewLayout.swift */,
+				C2B9090383546C773181E22CA2F212D6 /* PagingContentInteraction.swift */,
+				AE8069CC39468EBBF57AD19407EBD449 /* PagingDiff.swift */,
+				A2441F8ADC459D477481806BAB59A1B0 /* PagingDirection.swift */,
+				FDACB19AF494809BD0CC287690296F19 /* PagingDistance.swift */,
+				9F1B5EE6EEE4ACE346381A252E4235F1 /* PagingEvent.swift */,
+				DC7170B34642D0AA90B539F80029800C /* PagingIndicatorLayoutAttributes.swift */,
+				A84742A6631461F54A27C24E15B39C41 /* PagingIndicatorMetric.swift */,
+				2F7EE761F469737AE1F7DC2E676FC238 /* PagingIndicatorOptions.swift */,
+				177B7858ACACFA9AE57153605529B761 /* PagingIndicatorView.swift */,
+				8659B8A03B62037D02FF081C693271CC /* PagingInvalidationContext.swift */,
+				FB4A4AD4F128715EF679A05583BA6ED6 /* PagingItem.swift */,
+				2870DD94BD30166ED38C2591F0048C6B /* PagingItems.swift */,
+				E368D7AAB5B983315808C6C9E9F0C0DD /* PagingLayout.swift */,
+				3A0E66234B12E1DAA4ABD10C8428D71C /* PagingMenuHorizontalAlignment.swift */,
+				7B6CA49B0CFD70DC4A652680DA83E04F /* PagingMenuInteraction.swift */,
+				2C3832D45BC463713C66153BD1394059 /* PagingMenuItemSize.swift */,
+				893EC9F937BF6C3B7BFE8BE652689865 /* PagingMenuItemSource.swift */,
+				A60F16C4F70D63A8E1CD45A4CD521773 /* PagingMenuTransition.swift */,
+				4A3DE851C8EE321697A6EF1D96B4E5CA /* PagingOptions.swift */,
+				6286AB73FF41FB6F2D05BBF262ABCA9C /* PagingSelectedScrollPosition.swift */,
+				4D4A83BD89400CC69EC7873EA25FA50C /* PagingSizeCache.swift */,
+				464C3541AB04A82E9DC29E4780BA5A48 /* PagingState.swift */,
+				F2361EB8D677464E554656DDD28051FE /* PagingStateMachine.swift */,
+				E4A98518437782A37E742FADA0041029 /* PagingTitleCell.swift */,
+				311F7BE15C1274BFDFE401A0B42F6956 /* PagingTransition.swift */,
+				7048AB60833C0150988E264E099D05B7 /* PagingView.swift */,
+				C85FB8EB0517AB4E3ECC39B6A637C56B /* PagingViewController.swift */,
+				6C3D09BBF79C50371E2A0F4BCAF4B812 /* PagingViewControllerDataSource.swift */,
+				FCAEC9742F640F71171CB4DC8847D7ED /* PagingViewControllerDelegate.swift */,
+				622444FCE4AFDA0F5699C2C641ADBC3F /* PagingViewControllerInfiniteDataSource.swift */,
+				4CBA7D8D0EEBB9782A1A2166DD8BBE08 /* Tween.swift */,
+				105A121CFB6C3312B60007C0E1BEB5AB /* UIColor+interpolation.swift */,
+				06AE2C468D884327053375D63EEE610C /* UIEdgeInsets.swift */,
+				503EF5DCA4350ED13A53165921A3899A /* UIScrollView+near.swift */,
+				03EF737DD140890C4DDF46EFEDC959A0 /* UIView+constraints.swift */,
+				3CDFFDE4401631A57333531DA8EDA932 /* Support Files */,
+			);
+			name = Parchment;
+			path = Parchment;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0F1917F0E52AA61F713622F231B19459 /* Pods */,
-				F29E7AA4814A7E51C847E175C2FC958D /* Products */,
+				1F81E03AEF4F9E6B370E88DFC920A015 /* Pods */,
+				75802FAFDFABDD3611DD33222D9D4343 /* Products */,
 				E04D8EF053B9792B19AD63E4B5DAB71C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -418,18 +531,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F29E7AA4814A7E51C847E175C2FC958D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F8312DC1F60C41EFB9395B2E34739F5 /* DLRadioButton.framework */,
-				BFCBD3B7DA81D433BD70860D76B2F4C5 /* Parchment.framework */,
-				6A63C6213DFF0398AF318C5D5E43D7A8 /* Pods_ShopApp.framework */,
-				56742378D98FE6AB36A1549897D2DF29 /* Pods_ShopAppTests.framework */,
-				046292EB3D8F0D2D4927992CE7CF8CEC /* Pods_ShopAppUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		F96270DBF4EC8B6231E554AADAEBACB8 /* Pods-ShopAppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +550,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		20EB1881379C3519569FCF794EB86361 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADAF986486B733649AD2C6680418BEF /* NMLocalizedPhoneCountryView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41C53D03BED9B09C895D096FA75D5907 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,20 +574,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82E530709AF853540CE8537505811A63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D443BA50BB6DD741300BEB53EF660B /* Pods-ShopApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5F7EABFBF8B27D479BF800DFE562B70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				315C8D7424C3585023FA4C19C962ADC1 /* DLRadioButton-umbrella.h in Headers */,
 				223C4607BDD85F970ABDC4CBC5101546 /* DLRadioButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C993AC112C62F44A0404044F7FF15D0D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1CCA98E09DB02D11B83E8AB7717E6CA /* Pods-ShopApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +602,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1155C1682BB551F1410577479A7AB0BC /* NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6357483395336C3152F880BF34044823 /* Build configuration list for PBXNativeTarget "NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView" */;
+			buildPhases = (
+				E136E5C36252CE065758716F875D1C14 /* Sources */,
+				6ED397B55157EAEBC839F48FA384595E /* Frameworks */,
+				D2A5E58AD465DAEAA715999C44545283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView";
+			productName = "NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView";
+			productReference = 8D25C75307FEAA7724AC727968DF576D /* NMLocalizedPhoneCountryView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		18184DEEDE7075D999122505659B55E9 /* Parchment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82F93C29AD8B772C53013A50A885467C /* Build configuration list for PBXNativeTarget "Parchment" */;
@@ -508,7 +634,7 @@
 			);
 			name = Parchment;
 			productName = Parchment;
-			productReference = BFCBD3B7DA81D433BD70860D76B2F4C5 /* Parchment.framework */;
+			productReference = 30B4B79D3E88A31B7630D60EC9C6BCC8 /* Parchment.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		249AC76086FFEDD654FE741DC4193EE3 /* Pods-ShopAppTests */ = {
@@ -527,27 +653,28 @@
 			);
 			name = "Pods-ShopAppTests";
 			productName = "Pods-ShopAppTests";
-			productReference = 56742378D98FE6AB36A1549897D2DF29 /* Pods_ShopAppTests.framework */;
+			productReference = 3D5F341FA3CCF03F355E99F44C1B2A9C /* Pods_ShopAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B568B2B09A12F320751E499375F1F27 /* Pods-ShopApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3E85DF0D4ADCA879973F3661B59C735 /* Build configuration list for PBXNativeTarget "Pods-ShopApp" */;
+			buildConfigurationList = C380A51BA283670323C973F86A03A1DE /* Build configuration list for PBXNativeTarget "Pods-ShopApp" */;
 			buildPhases = (
-				C993AC112C62F44A0404044F7FF15D0D /* Headers */,
-				6B83D00B8B255A6971E8C371B704DC73 /* Sources */,
-				93D4658DFCE8597964599A340D01770C /* Frameworks */,
-				46D427C06DEF871C23C67D62ABE51E40 /* Resources */,
+				82E530709AF853540CE8537505811A63 /* Headers */,
+				175CFD67A5500F2C6BDD7C614435CB84 /* Sources */,
+				0F99B830C0786B87E9E66F81FAC7E466 /* Frameworks */,
+				F5A5A431E81D6ACB2E5F1CD3BA3C4E0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF63C07FF472BB664E83C54765AB2D2E /* PBXTargetDependency */,
-				2B60D8CD981A11A3FA24A5F187019576 /* PBXTargetDependency */,
+				2B98AAB26C222A80109C8C609B698F12 /* PBXTargetDependency */,
+				6DC7C411C1E24A996894F5BAC88A4AF3 /* PBXTargetDependency */,
+				26DA0CFF453903510E0808F7188E05D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-ShopApp";
 			productName = "Pods-ShopApp";
-			productReference = 6A63C6213DFF0398AF318C5D5E43D7A8 /* Pods_ShopApp.framework */;
+			productReference = 3B949FFDF8A9182FD94F73CAD38EACB8 /* Pods_ShopApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9489BEE8FBECB05BADAD77F3010839F1 /* Pods-ShopAppUITests */ = {
@@ -566,7 +693,7 @@
 			);
 			name = "Pods-ShopAppUITests";
 			productName = "Pods-ShopAppUITests";
-			productReference = 046292EB3D8F0D2D4927992CE7CF8CEC /* Pods_ShopAppUITests.framework */;
+			productReference = AF1DC42199E0F1F7FE1F22C9CFA74426 /* Pods_ShopAppUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */ = {
@@ -584,7 +711,26 @@
 			);
 			name = DLRadioButton;
 			productName = DLRadioButton;
-			productReference = 5F8312DC1F60C41EFB9395B2E34739F5 /* DLRadioButton.framework */;
+			productReference = 45BB38CAB30910650590585C77B89A8A /* DLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D087831C4E8EEFECBE0AAA4D3D441778 /* NMLocalizedPhoneCountryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70FF25441B665C761BA35FCF11C35B1 /* Build configuration list for PBXNativeTarget "NMLocalizedPhoneCountryView" */;
+			buildPhases = (
+				20EB1881379C3519569FCF794EB86361 /* Headers */,
+				0115443CBCED9D2DA588C6F5FD41CEE9 /* Sources */,
+				8808E39A5C1CF535C7D632EFCFE649D4 /* Frameworks */,
+				AF0E6EECC7BD1189831A14D68024A829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44FABAB089F28C3408FF20E55AB5FD4 /* PBXTargetDependency */,
+			);
+			name = NMLocalizedPhoneCountryView;
+			productName = NMLocalizedPhoneCountryView;
+			productReference = 52361C58A3993BC431A90B55D65EF395 /* NMLocalizedPhoneCountryView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -604,11 +750,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F29E7AA4814A7E51C847E175C2FC958D /* Products */;
+			productRefGroup = 75802FAFDFABDD3611DD33222D9D4343 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */,
+				D087831C4E8EEFECBE0AAA4D3D441778 /* NMLocalizedPhoneCountryView */,
+				1155C1682BB551F1410577479A7AB0BC /* NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView */,
 				18184DEEDE7075D999122505659B55E9 /* Parchment */,
 				6B568B2B09A12F320751E499375F1F27 /* Pods-ShopApp */,
 				249AC76086FFEDD654FE741DC4193EE3 /* Pods-ShopAppTests */,
@@ -619,13 +767,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		21DB0C0CA3815E9F41D21BAA21744854 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46D427C06DEF871C23C67D62ABE51E40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -646,6 +787,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF0E6EECC7BD1189831A14D68024A829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5138CEFB3568627451E973F83E0664 /* NMLocalizedPhoneCountryView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A5E58AD465DAEAA715999C44545283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDE8FC66D50A94B352F80D9B864FC59 /* Data in Resources */,
+				84B5E40DC67622250E320680BFB5515E /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A5A431E81D6ACB2E5F1CD3BA3C4E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8EACB81E399847D4A9AF2035AF36E96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -656,6 +821,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0115443CBCED9D2DA588C6F5FD41CEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813E51B0B2D24D98516621B05AE810F9 /* NMDelegate+DataSource.swift in Sources */,
+				795A7F4C9402C18C2625385BF58A24D6 /* NMExtensions.swift in Sources */,
+				2A9330F261A48026A20A70CFCDB3945E /* NMLocalizedPhoneCountryView-dummy.m in Sources */,
+				642FC98C4ABA80CAC9882B24049ECA80 /* NMLocalizedPhoneCountryView.swift in Sources */,
+				536E2757BFDC505CAFE09F0FA5CA0CFD /* NMLocalizedPhoneCountryView.xib in Sources */,
+				76236F2A512FD5A8D512DA443E73B02F /* NMLocalizedPhoneCountryViewController.swift in Sources */,
+				11ADAF32D6A2F60B62B110320A2DD406 /* NMNibView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175CFD67A5500F2C6BDD7C614435CB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D429DDBA1D8EB14C4F3119D17AA9DD /* Pods-ShopApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		570862614AEB831BE6ECB495DA14261F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -670,14 +857,6 @@
 			files = (
 				78D1B5A9AF44192FB612A518A1A8F546 /* DLRadioButton-dummy.m in Sources */,
 				EE1F5AF82A8ABDBD025AD0C9C1206BC2 /* DLRadioButton.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B83D00B8B255A6971E8C371B704DC73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10D18110D2D9F52FDE7243665E91D395 /* Pods-ShopApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,6 +915,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E136E5C36252CE065758716F875D1C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB97481F20FF247F2284DD44ACAC1A64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -747,11 +933,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B60D8CD981A11A3FA24A5F187019576 /* PBXTargetDependency */ = {
+		26DA0CFF453903510E0808F7188E05D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Parchment;
 			target = 18184DEEDE7075D999122505659B55E9 /* Parchment */;
-			targetProxy = E72C4669110AA2C7B3AF7268DDD5C8EF /* PBXContainerItemProxy */;
+			targetProxy = 09327943AF191B935CBB2C0E34204B31 /* PBXContainerItemProxy */;
+		};
+		2B98AAB26C222A80109C8C609B698F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
+			targetProxy = 34A4A8D4DBEB8E77DEDDD7A0527455BE /* PBXContainerItemProxy */;
+		};
+		6DC7C411C1E24A996894F5BAC88A4AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMLocalizedPhoneCountryView;
+			target = D087831C4E8EEFECBE0AAA4D3D441778 /* NMLocalizedPhoneCountryView */;
+			targetProxy = FE01B5EC805DF942FC1053EAB69CF0A7 /* PBXContainerItemProxy */;
 		};
 		A0CFD38F40754635006A34807080A8B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -759,24 +957,24 @@
 			target = 6B568B2B09A12F320751E499375F1F27 /* Pods-ShopApp */;
 			targetProxy = 37D3F62E4FB5C49430924EE776765970 /* PBXContainerItemProxy */;
 		};
+		D44FABAB089F28C3408FF20E55AB5FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView";
+			target = 1155C1682BB551F1410577479A7AB0BC /* NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView */;
+			targetProxy = A7057DD166203E09732E99262EDF25FE /* PBXContainerItemProxy */;
+		};
 		FE03532432D49A2EB5667D5B6CFEBD75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ShopApp";
 			target = 6B568B2B09A12F320751E499375F1F27 /* Pods-ShopApp */;
 			targetProxy = 2343B63715B358BF6B459F8A8C6589C3 /* PBXContainerItemProxy */;
 		};
-		FF63C07FF472BB664E83C54765AB2D2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DLRadioButton;
-			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
-			targetProxy = C0DEDFA0A4197D813598F8365EBF7F43 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0EBE115C00F23D8B415DD6041BF2DBE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 111A0ED2D975B8EADEF0CFAB38CD9432 /* Parchment.xcconfig */;
+			baseConfigurationReference = 8FAF574440B0DF994FCABE3394AE014A /* Parchment.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -809,43 +1007,21 @@
 			};
 			name = Debug;
 		};
-		1B955116A76145F9C254A49BA949A19F /* Debug */ = {
+		1EEBA97187DC25B1AE48A30EF1D6A9BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4631DB5C8A32757B664AE94030B68B9A /* Pods-ShopApp.debug.xcconfig */;
+			baseConfigurationReference = EB3E95845917EB530CCDBD09EFE24F4F /* NMLocalizedPhoneCountryView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NMLocalizedPhoneCountryView";
+				INFOPLIST_FILE = "Target Support Files/NMLocalizedPhoneCountryView/ResourceBundle-NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NMLocalizedPhoneCountryView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -910,6 +1086,41 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		326B3CD67147B044800DA0757DD7DF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3E95845917EB530CCDBD09EFE24F4F /* NMLocalizedPhoneCountryView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView.modulemap";
+				PRODUCT_MODULE_NAME = NMLocalizedPhoneCountryView;
+				PRODUCT_NAME = NMLocalizedPhoneCountryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		35CCAE7605B0563F34C0902706233ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1050,7 +1261,7 @@
 		};
 		608A3BEB012A6BE7E52E5370F2A777EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 111A0ED2D975B8EADEF0CFAB38CD9432 /* Parchment.xcconfig */;
+			baseConfigurationReference = 8FAF574440B0DF994FCABE3394AE014A /* Parchment.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1077,45 +1288,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		71A4627F848A4712EF75106AFE513D22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA1288C1FBA28AFEDA0746BF8AD23D5F /* Pods-ShopApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1161,9 +1333,25 @@
 			};
 			name = Debug;
 		};
+		A52899EA7EDB5EEB9E06737B47148268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3E95845917EB530CCDBD09EFE24F4F /* NMLocalizedPhoneCountryView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NMLocalizedPhoneCountryView";
+				INFOPLIST_FILE = "Target Support Files/NMLocalizedPhoneCountryView/ResourceBundle-NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NMLocalizedPhoneCountryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		A8308FE51FD728EC7F31822F49BF2BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E34E97BD33F5AC8AB07E33A871AF9109 /* DLRadioButton.xcconfig */;
+			baseConfigurationReference = EF232F69FC99E009692165C76BF5E46E /* DLRadioButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1199,7 +1387,7 @@
 		};
 		BED03D2580C14346C3AE8F5EB6A5F977 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E34E97BD33F5AC8AB07E33A871AF9109 /* DLRadioButton.xcconfig */;
+			baseConfigurationReference = EF232F69FC99E009692165C76BF5E46E /* DLRadioButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1226,6 +1414,117 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C77A8AD69CE59AE93EC20450C5F9078E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3E95845917EB530CCDBD09EFE24F4F /* NMLocalizedPhoneCountryView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NMLocalizedPhoneCountryView/NMLocalizedPhoneCountryView.modulemap";
+				PRODUCT_MODULE_NAME = NMLocalizedPhoneCountryView;
+				PRODUCT_NAME = NMLocalizedPhoneCountryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C83513864B6945D82EE35E2A387EC8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1288C1FBA28AFEDA0746BF8AD23D5F /* Pods-ShopApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F637936CFE15728D22C6D2E44EEDE241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4631DB5C8A32757B664AE94030B68B9A /* Pods-ShopApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopApp/Pods-ShopApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1301,6 +1600,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6357483395336C3152F880BF34044823 /* Build configuration list for PBXNativeTarget "NMLocalizedPhoneCountryView-NMLocalizedPhoneCountryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52899EA7EDB5EEB9E06737B47148268 /* Debug */,
+				1EEBA97187DC25B1AE48A30EF1D6A9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82F93C29AD8B772C53013A50A885467C /* Build configuration list for PBXNativeTarget "Parchment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1310,11 +1618,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3E85DF0D4ADCA879973F3661B59C735 /* Build configuration list for PBXNativeTarget "Pods-ShopApp" */ = {
+		A70FF25441B665C761BA35FCF11C35B1 /* Build configuration list for PBXNativeTarget "NMLocalizedPhoneCountryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B955116A76145F9C254A49BA949A19F /* Debug */,
-				71A4627F848A4712EF75106AFE513D22 /* Release */,
+				C77A8AD69CE59AE93EC20450C5F9078E /* Debug */,
+				326B3CD67147B044800DA0757DD7DF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C380A51BA283670323C973F86A03A1DE /* Build configuration list for PBXNativeTarget "Pods-ShopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F637936CFE15728D22C6D2E44EEDE241 /* Debug */,
+				C83513864B6945D82EE35E2A387EC8B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

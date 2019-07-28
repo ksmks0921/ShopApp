@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Parchment
+import NMLocalizedPhoneCountryView
 
 class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
@@ -17,15 +19,19 @@ class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDele
     @IBOutlet weak var loginTab: UICollectionView!
     @IBOutlet weak var tabView: UIView!
     @IBOutlet var topSection: UIView!
+    @IBOutlet weak var loginPart: UIView!
     
-    @IBOutlet weak var telTab: UILabel!
-    @IBOutlet weak var emailTab: UILabel!
-    
+//    @IBOutlet weak var telTab: UILabel!
+//    @IBOutlet weak var emailTab: UILabel!
+//
+
+//    @IBOutlet weak var animationborder: UIView!
     
     @IBOutlet weak var loginbutton: UIButton!
    
     @IBOutlet weak var band: UILabel!
-    
+    var rightflag = true
+    var leftflag = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +49,7 @@ class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDele
         loginbutton.layer.borderColor =  yourColor.cgColor
         loginbutton.layer.borderWidth = 1
         
-        self.telTab.textColor = yourColor
+    
         
         let customFont = UIFont(name: "AraAlmBon-Regular", size: 35)
         band.font = customFont
@@ -51,16 +57,31 @@ class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDele
         
 
     
-//        let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipes(_:)))
-//        let rightSwipe = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipes(_:)))
-//
-//        leftSwipe.direction = .left
-//        rightSwipe.direction = .right
-//
-//        self.tabView.addGestureRecognizer(leftSwipe)
-//        self.tabView.addGestureRecognizer(rightSwipe)
-//        topSection.layer.shadowOffset = CGSize(width: 0, height: 2)
-        // Do any additional setup after loading the view.
+
+        
+        // login select
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let firstViewController = storyboard.instantiateViewController(withIdentifier: "loginWithTel")
+        let secondViewController = storyboard.instantiateViewController(withIdentifier: "loginWithEmail")
+        
+                // Initialize a FixedPagingViewController and pass
+                // in the view controllers.
+        let pagingViewController = FixedPagingViewController(viewControllers: [
+            firstViewController,
+            secondViewController
+            ])
+  
+        addChild(pagingViewController)
+        loginPart.addSubview(pagingViewController.view)
+        loginPart.constrainToEdges(pagingViewController.view)
+        pagingViewController.didMove(toParent: self)
+        
+        //country select
+        
+     
+        
+    
+        
     }
 //    @objc func handleSwipes(_ sender:UISwipeGestureRecognizer) {
 //
@@ -113,27 +134,60 @@ class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDele
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
-    
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        let pageWidth = loginTab.frame.size.width
-        let currentPage = loginTab.contentOffset.x / pageWidth
+
+   
         
-        if (currentPage == 0)
-        {
-            
-          print(currentPage + 1)
-            self.emailTab.textColor = UIColor.black
-            self.telTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
-            
-        }
-        else
-        {
-            
-            print(currentPage)
-            self.telTab.textColor = UIColor.black
-            self.emailTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
-        }
-    }
+
+//
+//    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+//        let pageWidth = loginTab.frame.size.width
+//        let currentPage = loginTab.contentOffset.x / pageWidth
+//
+//        if (currentPage == 0)
+//        {
+//
+//          print(currentPage)
+//            self.emailTab.textColor = UIColor.black
+//            self.telTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
+//
+//            let duration:Double = 1
+//            if (self.rightflag != true){
+//                UIView.animate(withDuration: duration){
+//                    self.moveRight(view: self.animationborder)
+//                    self.rightflag = true
+//                    self.leftflag = false
+//                }
+//
+//            }
+//
+//
+//
+//        }
+//        else
+//        {
+//
+//            print(currentPage)
+//            self.telTab.textColor = UIColor.black
+//            self.emailTab.textColor = UIColor(red:0.31, green:0.58, blue:0.74, alpha:1.0)
+//            let duration:Double = 1
+//            if(self.leftflag != true){
+//                UIView.animate(withDuration: duration){
+//                    self.moveLeft(view: self.animationborder)
+//                    self.leftflag = true
+//                    self.rightflag = false
+//                }
+//            }
+//
+//
+//        }
+//    }
+    
+//    func moveLeft(view: UIView){
+//        view.center.x += view.frame.size.width
+//    }
+//    func moveRight(view:UIView){
+//        view.center.x -= view.frame.size.width
+//    }
     /*
     // MARK: - Navigation
 
@@ -144,4 +198,9 @@ class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDele
     }
     */
 
+}
+
+
+extension thirdVC: UIGestureRecognizerDelegate {
+    
 }
