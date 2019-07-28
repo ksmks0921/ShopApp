@@ -17,6 +17,8 @@
 		7D52F65822EA4E5D003C0152 /* CityPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65522EA4E5D003C0152 /* CityPickerViewController.swift */; };
 		7D52F65A22EB97B9003C0152 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65922EB97B8003C0152 /* CartVC.swift */; };
 		7D52F65C22EBA9CE003C0152 /* notiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F65B22EBA9CE003C0152 /* notiVC.swift */; };
+		7D52F76F22ED9F15003C0152 /* loginTabFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F76E22ED9F15003C0152 /* loginTabFirst.swift */; };
+		7D52F77122EDB2E0003C0152 /* loginTabSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52F77022EDB2E0003C0152 /* loginTabSecond.swift */; };
 		7D8AD7B722D3ABB4008E97CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */; };
 		7D8AD7BC22D3ABB4008E97CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AD7BA22D3ABB4008E97CD /* Main.storyboard */; };
 		7D8AD7BE22D3ABB6008E97CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AD7BD22D3ABB6008E97CD /* Assets.xcassets */; };
@@ -69,6 +71,9 @@
 		7D52F65522EA4E5D003C0152 /* CityPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityPickerViewController.swift; sourceTree = "<group>"; };
 		7D52F65922EB97B8003C0152 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		7D52F65B22EBA9CE003C0152 /* notiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notiVC.swift; sourceTree = "<group>"; };
+		7D52F76D22ED9379003C0152 /* -Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D52F76E22ED9F15003C0152 /* loginTabFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTabFirst.swift; sourceTree = "<group>"; };
+		7D52F77022EDB2E0003C0152 /* loginTabSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTabSecond.swift; sourceTree = "<group>"; };
 		7D8AD7B322D3ABB4008E97CD /* ShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8AD7B622D3ABB4008E97CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D8AD7BB22D3ABB4008E97CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -199,6 +204,8 @@
 				7DB522A322E0D2C200FAD986 /* ExpandableHeaderView.swift */,
 				7DB522A122E0CC6200FAD986 /* Section.swift */,
 				7D997C8422E0E6F300BE34E9 /* thirdVC.swift */,
+				7D52F76E22ED9F15003C0152 /* loginTabFirst.swift */,
+				7D52F77022EDB2E0003C0152 /* loginTabSecond.swift */,
 				7D52F64D22E980F8003C0152 /* loginSelect.swift */,
 				7DD2D83122E6E335000571C5 /* DetailVC.swift */,
 				7DD2D83322E6E3F0000571C5 /* ProductVC.swift */,
@@ -210,6 +217,7 @@
 				7D8AD7BD22D3ABB6008E97CD /* Assets.xcassets */,
 				7D8AD7BF22D3ABB6008E97CD /* LaunchScreen.storyboard */,
 				7D8AD7C222D3ABB6008E97CD /* Info.plist */,
+				7D52F76D22ED9379003C0152 /* -Bridging-Header.h */,
 			);
 			path = ShopApp;
 			sourceTree = "<group>";
@@ -490,10 +498,12 @@
 				7D52F64E22E980F8003C0152 /* loginSelect.swift in Sources */,
 				7DB522A422E0D2C200FAD986 /* ExpandableHeaderView.swift in Sources */,
 				7D52F65822EA4E5D003C0152 /* CityPickerViewController.swift in Sources */,
+				7D52F76F22ED9F15003C0152 /* loginTabFirst.swift in Sources */,
 				7D52F65722EA4E5D003C0152 /* CityPickerClass.swift in Sources */,
 				7DB522A222E0CC6200FAD986 /* Section.swift in Sources */,
 				7DB522A022E0BA4C00FAD986 /* SecondVC.swift in Sources */,
 				7DD2D84922E74C37000571C5 /* ProductItemCell.swift in Sources */,
+				7D52F77122EDB2E0003C0152 /* loginTabSecond.swift in Sources */,
 				7DD2D83222E6E335000571C5 /* DetailVC.swift in Sources */,
 				7D52F65222EA1732003C0152 /* createAccountVC.swift in Sources */,
 				7DD2D83622E6E478000571C5 /* UIView+constraints.swift in Sources */,

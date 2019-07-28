@@ -7,7 +7,7 @@
 
 import UIKit
 import Parchment
-import NMLocalizedPhoneCountryView
+
 
 class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
@@ -20,6 +20,7 @@ class thirdVC: UIViewController,UICollectionViewDataSource, UICollectionViewDele
     @IBOutlet weak var tabView: UIView!
     @IBOutlet var topSection: UIView!
     @IBOutlet weak var loginPart: UIView!
+    
     
 //    @IBOutlet weak var telTab: UILabel!
 //    @IBOutlet weak var emailTab: UILabel!
